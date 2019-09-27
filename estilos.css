@@ -1,11 +1,12 @@
-.nav {
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navsuperior {
     background-color: white;
     border: 1px solid black;
 }
 
-p {
-    font-family: 'Open Sans', sans-serif;
-}
 
 h1 h2 h3 {
     font-family: 'Montserrat', sans-serif;
