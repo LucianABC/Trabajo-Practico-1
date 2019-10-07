@@ -1,3 +1,21 @@
-body{
-    background-color: violet;
+/* -------------------------------------------------------- */
+body {
+    font-family: $fuentegeneral;
+    color: #444;
+    background-color: $fondo_oscuro; 
+
+    a {
+    text-decoration: none;
+    color: $acentos;
+    }
+}
+ 
+.fondoblanco {
+    background-color: white;
+    color: $fondo_oscuro;
+}
+
+.fondoceleste {
+    background-color: $fondo_claro;
+    color: $fondo_oscuro;
 }
