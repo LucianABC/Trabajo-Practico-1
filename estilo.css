@@ -67,6 +67,7 @@ body a {
   left: 0;
   background: rgba(19, 39, 57, 0.8);
   display: none;
+  position: fixed;
 }
 
 .navmenu-mobile {
@@ -80,6 +81,9 @@ body a {
   background: rgba(19, 39, 57, 0.8);
   transition: 0.4s;
 }
+.navmenu-mobile a {
+  color: white;
+}
 
 .togglemenu {
   position: fixed;
@@ -92,10 +96,10 @@ body a {
   transition: all 0.4s;
   text-align: right;
 }
-.togglemenu:active ~ .navmenu-mobile {
+.togglemenu:focus ~ .navmenu-mobile {
   left: 0;
 }
-.togglemenu:active ~ .navmenu-mobile-overlay {
+.togglemenu:focus ~ .navmenu-mobile-overlay {
   display: block;
 }
 

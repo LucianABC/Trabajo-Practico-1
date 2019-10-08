@@ -21,7 +21,9 @@
     left: 0;
     background: rgba(19, 39, 57, 0.8);
     display: none;
+    position: fixed;
 }
+
 .navmenu-mobile{
     position: fixed;
     top: 0;
@@ -32,6 +34,9 @@
     padding-top: 18px;
     background: rgba(19, 39, 57, 0.8);
     transition: 0.4s;
+    a{
+        color: white;
+    }
 }
 
 .togglemenu {
@@ -45,10 +50,10 @@
     transition: all 0.4s;
     text-align: right;
   
-    &:active~.navmenu-mobile {
+    &:focus~.navmenu-mobile {
         left: 0;
     }
-    &:active~.navmenu-mobile-overlay{
+    &:focus~.navmenu-mobile-overlay{
         display: block;
     }
 }
