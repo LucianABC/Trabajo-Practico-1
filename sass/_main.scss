@@ -3,7 +3,8 @@ body {
     font-family: $fuentegeneral;
     color: #444;
     background-color: $fondo_oscuro; 
-
+    margin: 0;
+    padding: 20px;
     a {
     text-decoration: none;
     color: $acentos;
@@ -18,4 +19,30 @@ body {
 .fondoceleste {
     background-color: $fondo_claro;
     color: $fondo_oscuro; 
+}
+
+
+.flex {
+    display: flex;
+}
+
+.left {
+   float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+
+  
+.container {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    box-sizing: border-box;
 }

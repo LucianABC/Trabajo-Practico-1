@@ -6,14 +6,21 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header id="header" class="fijotop">
-            <div class="container" >
-                <div class="logo float-left">
+           
+        <button type="button" class="togglemenu right" >
+                <i class="fa fa-bars"></i>
+        </button>
+   
+
+        <header id="nav" class="fondoblanco flex">
+            <div class="container ">
+                <div class="logo left">
                     <a href="#home">
-                        <img src="./imagenes/logo-tp.png" alt="Logo ADA">
+                        <img src="./imagenes/logo-tp.png" class="img" alt="Logo ADA">
                     </a>
                 </div>
-                <nav class="navbar float-right">
+ 
+                <nav class="navmenu-desktop float-right">
                     <ul>
                         <li>
                             <a href="#home">Home</a>
@@ -81,6 +88,78 @@
                 </nav>    
             </div>
         </header>
+<!-------------------NAV MENU MOBILE--------------------------->
+        <div class="navmenu-mobile-overlay"></div>
+        <nav class="navmenu-mobile">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a  href="#about-us">About Us</a>
+                </li>
+        
+                <li>
+                    <a  href="#services">Services</a>                  
+                </li>
+
+                <li>
+                    <a  href="#portfolio">Portfolio</a>
+                </li>
+
+                <li>
+                    <a  href="#team"> Team</a>
+                </li>
+
+                <li class="desplegable">
+                    <a  href="#home">Dropdown</a>
+                    <ul class="desplegable">
+                        <li>
+                            <a href="#">
+                                Item 1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Item 2
+                            </a>
+                            <ul>
+                                <li>
+                                    SubItem1
+                                </li>
+                                        
+                                <li>
+                                    SubItem2
+                                </li>
+                                            
+                                <li>
+                                    SubItem3
+                                </li>
+                            </ul>
+                        </li>
+                            
+                        <li>
+                            <a href="#">
+                                Item 3
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                Item 4
+                            </a>
+                        </li>
+                    </ul>                    
+                </li>
+
+                <li>
+                    <a href="contact-us">Contact Us</a>    
+                </li>
+            </ul>
+        </nav>
+
+<!-------------------FIN NAV MENU MOBILE--------------------------->        
 <!----------------------CONTENIDO----------------------------->
         <section class="seccion" id="home">
         </section>
