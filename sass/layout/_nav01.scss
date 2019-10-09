@@ -36,6 +36,15 @@
     transition: 0.4s;
     a{
         color: white;
+        padding: 10px 20px;
+
+
+    }
+    li {
+        
+        width: 240px;
+        height: 64px;
+
     }
 }
 
@@ -65,7 +74,7 @@
 .desplegable {
     display: none;
 }
-.fa-angle-up {
+.up {
     display: none;
 }
 #check {
@@ -73,20 +82,18 @@
     &:checked + .desplegable {
         display: block;
     }
-    &:checked + .fa-angle-down {
+    &:checked + .down {
         display: none;
     }
-    &:checked + .fa-angle-up {
+    &:checked + .up {
         display: block;
     }
 }
 
-
-
 .desplegable2 {
     display: none;
 }
-.fa-angle-up {
+.up {
     display: none;
 }
 #check2 {
@@ -94,10 +101,10 @@
     &:checked + .desplegable2 {
         display: block;
     }
-    &:checked + .fa-angle-down {
+    &:checked + .down {
         display: none;
     }
-    &:checked + .fa-angle-up {
+    &:checked + .up {
         display: block;
     }
 }
