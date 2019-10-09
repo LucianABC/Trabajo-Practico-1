@@ -61,7 +61,46 @@
         display: block;
     }
 }
+/*-----dropdown------*/
+.desplegable {
+    display: none;
+}
+.fa-angle-up {
+    display: none;
+}
+#check {
+    display: none;
+    &:checked + .desplegable {
+        display: block;
+    }
+    &:checked + .fa-angle-down {
+        display: none;
+    }
+    &:checked + .fa-angle-up {
+        display: block;
+    }
+}
 
+
+
+.desplegable2 {
+    display: none;
+}
+.fa-angle-up {
+    display: none;
+}
+#check2 {
+    display: none;
+    &:checked + .desplegable2 {
+        display: block;
+    }
+    &:checked + .fa-angle-down {
+        display: none;
+    }
+    &:checked + .fa-angle-up {
+        display: block;
+    }
+}
 
 /*-------desktop only-------------------------*/
 .navmenu-desktop {
