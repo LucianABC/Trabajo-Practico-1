@@ -19,7 +19,7 @@
     z-index: 9997;
     top: 0;
     left: 0;
-    background: rgba(19, 39, 57, 0.8);
+    background: $fondo_overlay;
     display: none;
     position: fixed;
 }
@@ -32,7 +32,7 @@
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    background: rgba(19, 39, 57, 0.8);
+    background: $fondo_overlay;
     transition: 0.4s;
     a{
         color: white;
@@ -49,7 +49,11 @@
     font-size: 24px;
     transition: all 0.4s;
     text-align: right;
-  
+    .fa-bars{
+        
+    margin: 18px 18px 0 0;
+    color: $color_iconos;
+    }
     &:focus~.navmenu-mobile {
         left: 0;
     }
@@ -59,7 +63,7 @@
 }
 
 
-/*------desktop only----*/
+/*-------desktop only-------------------------*/
 .navmenu-desktop {
     display: none;
 }

@@ -5,9 +5,13 @@ body {
     background-color: $fondo_oscuro; 
     margin: 0;
     padding: 20px;
+
     a {
     text-decoration: none;
     color: $acentos;
+    }
+    ul{
+        list-style: none;
     }
 }
  
