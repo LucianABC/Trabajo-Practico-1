@@ -4,6 +4,8 @@
         <link rel="stylesheet" type="text/css" href="./estilo.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
     </head>
     <body>
            
@@ -41,9 +43,12 @@
                         <li>
                             <a  href="#team"> Team</a>
                         </li>
-
                         <li class="desplegable">
-                            <a  href="#home">Dropdown</a>
+                            <a  href="#home">
+                                Dropdown
+                            </a>
+
+
                             <ul class="desplegable">
                                 <li>
                                     <a href="#">
@@ -112,19 +117,32 @@
                     <a  href="#team"> Team</a>
                 </li>
 
-                <li class="desplegable">
-                    <a  href="#home">Dropdown</a>
+                <li class="">
+                    <label for="check">
+                        Dropdown    
+                        <i class="fa fa-angle-down down" aria-hidden="true"></i>
+                        <i class="fa fa-angle-up up" aria-hidden="true"></i>
+
+                    </label>
+        
+                    <input type= checkbox id="check">
+            
                     <ul class="desplegable">
                         <li>
                             <a href="#">
                                 Item 1
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Item 2
-                            </a>
-                            <ul>
+                        <li> 
+                            <label for="check2">
+                                Item 2    
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </label>
+                
+                            <input type= checkbox id="check2">
+                    
+                            <ul class="desplegable2">
                                 <li>
                                     SubItem1
                                 </li>
@@ -160,92 +178,195 @@
         </nav>
 
 <!-------------------FIN NAV MENU MOBILE--------------------------->        
-<!----------------------CONTENIDO----------------------------->
-        <section class="seccion" id="home">
-        </section>
-        
-        <section class="seccion fondoblanco" id="about-us">
-        </section>
-        
-        <section class="seccion fondoceleste" id="services">
-        </section>
+        <section class="allcontent">
+<!----------------------HOME----------------------------->
+            <section class="seccion" id="home">
+            </section>
+    <!----------------------FIN HOME----------------------------->
+    <!----------------------ABOUT US----------------------------->
+
+            <section class="seccion fondoblanco" id="about-us">
+               <header> 
+                <h3>About Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum tempus vestibulum. 
+                    Curabitur nec efficitur felis, vel euismod arcu.
+                    Vestibulum vulputate consequat metus et tincidunt
+                </p>
+              </header>
+                <img src="/imagenes/about-img.svg" alt="gente hablando">
             
-        <section class="seccion fondoblanco" id="portfolio">
-        </section>
-                 
-        <section class="seccion fondoceleste" id="testimonials">
-        </section>
-
-        <section class="seccion fondoblanco" id="team">
-        </section>
-        
-        <section class="seccion fondoceleste" id="our-clients">
-        </section>
-        
-        <section class="seccion fondoblanco" id="contact-us">
-        </section>
-<!----------------------------FOOTER----------------------------->        
-
-        <footer class="footer">
-            <div class="footertop"> 
-                <div class="container"
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum tempus vestibulum. 
+                    Curabitur nec efficitur felis, vel euismod arcu.
+                    Vestibulum vulputate consequat metus et tincidunt.
+                    Pellentesque in enim ornare, dignissim ante mollis,
+                    tristique ex. Vestibulum ornare rhoncus tellus in
+                    molestie. Pellentesque dapibus, 
+                </p>
+                <section>
                     <div>
-                        <h2>WAYNE</h2>
-                        <p>Fundada por los antepasados ​​mercantes de la familia Wayne en el siglo XVII como una casa de comerciantes, se encuentra entre las compañías más antiguas del Universo DC. La compañía comenzó como una docena de negocios iniciados por los hermanos Judge Solomon Wayne y Joshua Wayne. Con los ingresos generados, el juez Wayne construyó esencialmente Gotham City mediante la contratación de Cyrus Pinkney.2​
+                        <div>
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        </div>
+                        <h4> Fusce auctor</h4>
+                        <p> massa ac vulputate pulvinar, 
+                            dolor odio gravida arcu, eu semper lectus metus a leo.
+                            Donec gravida sed metus et pellentesque.
+                            Integer ornare condimentum nibh et placerat.
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae;
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                        </div>
+                        <h4> Fusce auctor</h4>
+                        <p> massa ac vulputate pulvinar, 
+                            dolor odio gravida arcu, eu semper lectus metus a leo.
+                            Donec gravida sed metus et pellentesque.
+                            Integer ornare condimentum nibh et placerat.
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae;
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                        </div>
+                        <h4> Fusce auctor</h4>
+                        <p> massa ac vulputate pulvinar, 
+                            dolor odio gravida arcu, eu semper lectus metus a leo.
+                            Donec gravida sed metus et pellentesque.
+                            Integer ornare condimentum nibh et placerat.
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae;
+                        </p>
+                    </div>
+                </section>
 
-                                El hijo y heredero del juez Wayne, Alan Wayne, la convirtió oficialmente en una empresa corporativa en el siglo XIX. Alan Wayne, quien fue el tatarabuelo de Bruce Wayne, erigió a Wayne Shipping, Wayne Chemical y Wayne Manufacturing. Todas estas compañías fueron energizadas por la Revolución Industrial del mundo; se crearon y diversificaron más ramas, mientras que otras disminuyeron y se descartaron. A lo largo de los años, se ha desarrollado desde una casa de comerciantes a una gran empresa multinacional conglomerada en el Universo DC; superando a LexCorp, Empresas Stagg y Aeronaves Ferris.
+                <section>
+                    <img src="/imagenes/about-extra-1.svg" alt="">
+
+                    <h4>
+                        Donec gravida sed metus et pellentesque.
+                        Integer ornare condimentum
+                    </h4>
+
+                    <p> massa ac vulputate pulvinar, 
+                        dolor odio gravida arcu, eu semper lectus metus a leo.
+                        Donec gravida sed metus et pellentesque.
+                    </p>
+                    <p>
+                        Integer ornare condimentum nibh et placerat.
+                        Vestibulum ante ipsum primis in faucibus orci 
+                        luctus et ultrices posuere cubilia Curae;
+                    </p>
+                </section>
+                
+                <section>
+                        <img src="/imagenes/about-extra-2.svg" alt="">
+        
+                        <h4>
+                            Donec gravida sed metus et pellentesque.
+                            Integer ornare condimentum
+                        </h4>
+        
+                        <p> massa ac vulputate pulvinar, 
+                            dolor odio gravida arcu, eu semper lectus metus a leo.
+                            Donec gravida sed metus et pellentesque.
+                        </p>
+                        <p>
+                            Integer ornare condimentum nibh et placerat.
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae;
+                        </p>
+                </section>
+        
+            </section>
+    <!----------------------FIN ABOUT US----------------------------->
+    <!----------------------CONTENIDO----------------------------->
+        
+            <section class="seccion fondoceleste" id="services">
+            </section>
+    <!----------------------CONTENIDO----------------------------->
+            
+            <section class="seccion fondoblanco" id="portfolio">
+            </section>
+                    
+            <section class="seccion fondoceleste" id="testimonials">
+            </section>
+
+            <section class="seccion fondoblanco" id="team">
+            </section>
+            
+            <section class="seccion fondoceleste" id="our-clients">
+            </section>
+            
+            <section class="seccion fondoblanco" id="contact-us">
+            </section>
+    <!----------------------------FOOTER----------------------------->        
+
+            <footer class="footer">
+                <div class="footertop"> 
+                    <div class="container"
+                        <div>
+                            <h2>WAYNE</h2>
+                            <p>Fundada por los antepasados ​​mercantes de la familia Wayne en el siglo XVII como una casa de comerciantes, se encuentra entre las compañías más antiguas del Universo DC. La compañía comenzó como una docena de negocios iniciados por los hermanos Judge Solomon Wayne y Joshua Wayne. Con los ingresos generados, el juez Wayne construyó esencialmente Gotham City mediante la contratación de Cyrus Pinkney.2​
+
+                                    El hijo y heredero del juez Wayne, Alan Wayne, la convirtió oficialmente en una empresa corporativa en el siglo XIX. Alan Wayne, quien fue el tatarabuelo de Bruce Wayne, erigió a Wayne Shipping, Wayne Chemical y Wayne Manufacturing. Todas estas compañías fueron energizadas por la Revolución Industrial del mundo; se crearon y diversificaron más ramas, mientras que otras disminuyeron y se descartaron. A lo largo de los años, se ha desarrollado desde una casa de comerciantes a una gran empresa multinacional conglomerada en el Universo DC; superando a LexCorp, Empresas Stagg y Aeronaves Ferris.
+                                    
+                                    Bajo el control de Patrick y Laura Wayne, Empresas Wayne se convirtió en una "empresa verde" y ambientalmente consciente desde ese momento en adelante.s</p>
+                        </div>
+                        <div>
+                            <ul> 
+                                <h3>Useful Links</h3>
                                 
-                                Bajo el control de Patrick y Laura Wayne, Empresas Wayne se convirtió en una "empresa verde" y ambientalmente consciente desde ese momento en adelante.s</p>
-                    </div>
-                    <div>
-                        <ul> 
-                            <h3>Useful Links</h3>
-                            
-                            <li><a>Home</a></li>
-                            <li><a>About us</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Terms of service</a></li>
-                            <li><a>Privacy policy</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>Contact Us</h3>
+                                <li><a>Home</a></li>
+                                <li><a>About us</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Terms of service</a></li>
+                                <li><a>Privacy policy</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Contact Us</h3>
 
-                        <p>A108 Adam Street 
-                        New York, NY 535022
-                        United States 
-                        Phone: +1 5589 55488 55
-                        Email: info@example.com</p>
-                        <div class="socialbuttons">
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                            <p>A108 Adam Street 
+                            New York, NY 535022
+                            United States 
+                            Phone: +1 5589 55488 55
+                            Email: info@example.com</p>
+                            <div class="socialbuttons">
+                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                                    <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Newsletter</h3>
+
+                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza. 
+                            </p>
+
+                            <form>
+                                <input type="email" name="email">
+                                <button type="submit">SUBMIT</button>
+                            </form>
                         </div>
                     </div>
-                    <div>
-                        <h3>Newsletter</h3>
-
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza. 
-                        </p>
-
-                        <form>
-                            <input type="email" name="email">
-                            <button type="submit">SUBMIT</button>
-                        </form>
+                </div>
+                <div class="container">
+                    <div class="footerbot">
+                        <span>© Copyright Wayne Enterprises. All Rights Reserved</span> 
+                            <span> Designed by ...</span> 
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="footerbot">
-                       <span>© Copyright Wayne Enterprises. All Rights Reserved</span> 
-                        <span> Designed by ...</span> 
-                </div>
-            </div>
-        </footer>
+            </footer>
 
-
+        </section>
 
     </body>
 </html>
