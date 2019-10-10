@@ -2,9 +2,9 @@
 body {
     font-family: $fuentegeneral;
     color: white;
+    font-size: 16px;
     background-color: $fondo_oscuro; 
     margin: 0;
-    padding: 20px;
 
     a {
     text-decoration: none;
@@ -13,11 +13,17 @@ body {
     ul{
         list-style: none;
     }
+
+    h3{
+        font-size: 36px;
+        font-family: $fuentetitulos;
+        color: $colortitulos;
+    }
 }
  
 .fondoblanco {
     background-color: white;
-    color: $fondo_oscuro;
+    color: $colorletra;
 }
 
 .fondoceleste {
@@ -46,4 +52,9 @@ body {
     margin-left: auto;
     max-width: 1140px;
     box-sizing: border-box;
+}
+
+.seccion {
+    padding: 24px 15px ;
+    text-align: center;
 }

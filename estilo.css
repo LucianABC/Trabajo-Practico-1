@@ -1,21 +1,28 @@
-/*----se usa solo en el body, la parte de copyright tiene fondo transparente y se ve este color ---*/
 /*---botones, links----*/
 /* -------------------------------------------------------- */
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  color: white;
+  font-size: 16px;
   background-color: #00428a;
   margin: 0;
-  padding: 20px;
 }
 body a {
   text-decoration: none;
   color: #007bff;
 }
+body ul {
+  list-style: none;
+}
+body h3 {
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  color: #444444;
+}
 
 .fondoblanco {
   background-color: white;
-  color: #00428a;
+  color: #556877;
 }
 
 .fondoceleste {
@@ -43,6 +50,11 @@ body a {
   margin-left: auto;
   max-width: 1140px;
   box-sizing: border-box;
+}
+
+.seccion {
+  padding: 24px 15px;
+  text-align: center;
 }
 
 #nav {
@@ -83,6 +95,11 @@ body a {
 }
 .navmenu-mobile a {
   color: white;
+  padding: 10px 20px;
+}
+.navmenu-mobile li {
+  width: 240px;
+  height: 64px;
 }
 
 .togglemenu {
@@ -96,6 +113,10 @@ body a {
   transition: all 0.4s;
   text-align: right;
 }
+.togglemenu .fa-bars {
+  margin: 18px 18px 0 0;
+  color: #004289;
+}
 .togglemenu:focus ~ .navmenu-mobile {
   left: 0;
 }
@@ -103,9 +124,56 @@ body a {
   display: block;
 }
 
-/*------desktop only----*/
+/*-----dropdown------*/
+.desplegable {
+  display: none;
+}
+
+.up {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+#check:checked + .desplegable {
+  display: block;
+}
+#check:checked + .down {
+  display: none;
+}
+#check:checked + .up {
+  display: block;
+}
+
+.desplegable2 {
+  display: none;
+}
+
+.up {
+  display: none;
+}
+
+#check2 {
+  display: none;
+}
+#check2:checked + .desplegable2 {
+  display: block;
+}
+#check2:checked + .down {
+  display: none;
+}
+#check2:checked + .up {
+  display: block;
+}
+
+/*-------desktop only-------------------------*/
 .navmenu-desktop {
   display: none;
+}
+
+#about-us header {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
