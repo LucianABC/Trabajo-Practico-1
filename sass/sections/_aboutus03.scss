@@ -1,5 +1,52 @@
 #about-us {
     header {
         font-size:15px;
+        color: $colorletra;
+    }
+}
+
+.imgcontainer {
+    position: relative;
+    
+    padding-right: 15px;
+    padding-left: 15px;
+    img {
+        width: 100%;
+    }
+}
+
+
+.itemaboutus {
+    text-align: left;
+    padding-bottom: 30px;
+        
+    .icon {
+
+        background: transparent;
+        width: 64px;
+        height: 64px;
+        border: 2px solid $acentos;
+        border-radius: 50%;
+        color: $acentos;
+        font-size: 24px ;
+    } 
+
+    p{
+        margin: 0 0 0 80px;
+        line-height: 24px;
+        font-size: 14px;
+    }
+    h4 {
+        margin: 0 0 5px 80px;
+      
+    }
+}
+
+#about-us-sec2{
+    text-align: left;
+    h4{
+        font-weight: 600;
+        font-size: 24px;
+
     }
 }

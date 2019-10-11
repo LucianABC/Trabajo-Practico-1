@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     background-color: $fondo_oscuro; 
     margin: 0;
-
+    width: 100%;
     a {
     text-decoration: none;
     color: $acentos;
@@ -19,11 +19,18 @@ body {
         font-family: $fuentetitulos;
         color: $colortitulos;
     }
+
+    h4 {
+        font-family: $fuentetitulos;
+        color: $colorsubtitulos;
+        font-size: 18px;
+        font-weight: 600;
+    }
 }
  
 .fondoblanco {
     background-color: white;
-    color: $colorletra;
+    color: $colortitulos;
 }
 
 .fondoceleste {
@@ -36,6 +43,10 @@ body {
     display: flex;
 }
 
+.fullcentrado {
+    justify-content: center;
+    align-items: center;
+}
 .left {
    float: left;
 }
@@ -53,6 +64,7 @@ body {
     max-width: 1140px;
     box-sizing: border-box;
 }
+
 
 .seccion {
     padding: 24px 15px ;

@@ -6,6 +6,7 @@ body {
   font-size: 16px;
   background-color: #00428a;
   margin: 0;
+  width: 100%;
 }
 body a {
   text-decoration: none;
@@ -19,10 +20,16 @@ body h3 {
   font-family: "Montserrat", sans-serif;
   color: #444444;
 }
+body h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #283d50;
+  font-size: 18px;
+  font-weight: 600;
+}
 
 .fondoblanco {
   background-color: white;
-  color: #556877;
+  color: #444444;
 }
 
 .fondoceleste {
@@ -32,6 +39,11 @@ body h3 {
 
 .flex {
   display: flex;
+}
+
+.fullcentrado {
+  justify-content: center;
+  align-items: center;
 }
 
 .left {
@@ -175,6 +187,46 @@ body h3 {
 
 #about-us header {
   font-size: 15px;
+  color: #556877;
+}
+
+.imgcontainer {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.imgcontainer img {
+  width: 100%;
+}
+
+.itemaboutus {
+  text-align: left;
+  padding-bottom: 30px;
+}
+.itemaboutus .icon {
+  background: transparent;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  color: #007bff;
+  font-size: 24px;
+}
+.itemaboutus p {
+  margin: 0 0 0 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.itemaboutus h4 {
+  margin: 0 0 5px 80px;
+}
+
+#about-us-sec2 {
+  text-align: left;
+}
+#about-us-sec2 h4 {
+  font-weight: 600;
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
