@@ -29,6 +29,8 @@
         border-radius: 50%;
         color: $acentos;
         font-size: 24px ;
+        transition: all 0.3s ease-in-out;
+
     } 
 
     p{
@@ -38,7 +40,12 @@
     }
     h4 {
         margin: 0 0 5px 80px;
-      
+       
+    }
+
+    &:hover > .icon { 
+        background: $acentos; 
+        color: white;
     }
 }
 

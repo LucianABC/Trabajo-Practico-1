@@ -211,6 +211,7 @@ body h4 {
   border-radius: 50%;
   color: #007bff;
   font-size: 24px;
+  transition: all 0.3s ease-in-out;
 }
 .itemaboutus p {
   margin: 0 0 0 80px;
@@ -219,6 +220,10 @@ body h4 {
 }
 .itemaboutus h4 {
   margin: 0 0 5px 80px;
+}
+.itemaboutus:hover > .icon {
+  background: #007bff;
+  color: white;
 }
 
 #about-us-sec2 {
