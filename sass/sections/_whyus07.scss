@@ -1,0 +1,39 @@
+#why-us {
+    
+    background-color: $fondo;
+    h3 {
+        color: white;
+    }
+    a {
+        color: white;
+    }
+
+    .card {
+        background-color: $fondo_card;
+        border-radius: 15px;
+        margin: 15px;
+        padding: 15px;
+        &:hover {
+            background-color: $fondo_cardhover;
+        }
+    
+        .cardbody {
+            padding: 15px;
+        }
+    }
+    .counters {
+        justify-content: space-around;
+        div{
+            position: relative;
+            max-width: 50%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin: 15px;
+        }
+        span {
+            display: block;
+            font-size: 48px;
+            font-weight: bold;
+        }
+    }
+}

@@ -41,6 +41,10 @@ body h4 {
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .fullcentrado {
   justify-content: center;
   align-items: center;
@@ -52,6 +56,10 @@ body h4 {
 
 .right {
   float: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .container {
@@ -232,6 +240,43 @@ body h4 {
 #about-us-sec2 h4 {
   font-weight: 600;
   font-size: 24px;
+}
+
+#why-us {
+  background-color: #004a99;
+}
+#why-us h3 {
+  color: white;
+}
+#why-us a {
+  color: white;
+}
+#why-us .card {
+  background-color: #00458f;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+}
+#why-us .card:hover {
+  background-color: #003b7a;
+}
+#why-us .card .cardbody {
+  padding: 15px;
+}
+#why-us .counters {
+  justify-content: space-around;
+}
+#why-us .counters div {
+  position: relative;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 15px;
+}
+#why-us .counters span {
+  display: block;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilo.css.map */
