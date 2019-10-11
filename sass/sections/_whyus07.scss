@@ -1,5 +1,5 @@
 #why-us {
-    
+    padding: 24px 0;
     background-color: $fondo;
     h3 {
         color: white;
@@ -7,7 +7,10 @@
     a {
         color: white;
     }
-
+    p{
+        font-size: 15px;
+        
+    }
     .card {
         background-color: $fondo_card;
         border-radius: 15px;
@@ -16,7 +19,19 @@
         &:hover {
             background-color: $fondo_cardhover;
         }
-    
+
+        h5 {
+            font-size: 22px;
+            font-weight: 600;
+            margin: 0 0 12px;
+        }
+
+        .fa {
+            font-size: 48px;
+            padding-top: 15px;
+            color: #bfddfe;
+
+        }
         .cardbody {
             padding: 15px;
         }

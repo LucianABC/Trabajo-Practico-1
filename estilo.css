@@ -243,6 +243,7 @@ body h4 {
 }
 
 #why-us {
+  padding: 24px 0;
   background-color: #004a99;
 }
 #why-us h3 {
@@ -250,6 +251,9 @@ body h4 {
 }
 #why-us a {
   color: white;
+}
+#why-us p {
+  font-size: 15px;
 }
 #why-us .card {
   background-color: #00458f;
@@ -259,6 +263,16 @@ body h4 {
 }
 #why-us .card:hover {
   background-color: #003b7a;
+}
+#why-us .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+#why-us .card .fa {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
 }
 #why-us .card .cardbody {
   padding: 15px;
