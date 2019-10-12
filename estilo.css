@@ -122,9 +122,15 @@ body h4 {
   color: white;
   padding: 10px 20px;
 }
+.navmenu-mobile ul {
+  padding-left: 25px;
+}
 .navmenu-mobile li {
   width: 240px;
-  height: 64px;
+  height: 34px;
+}
+.navmenu-mobile label {
+  padding: 10px 20px;
 }
 
 .togglemenu {
@@ -142,10 +148,10 @@ body h4 {
   margin: 18px 18px 0 0;
   color: #004289;
 }
-.togglemenu:focus ~ .navmenu-mobile {
+.togglemenu:hover ~ .navmenu-mobile {
   left: 0;
 }
-.togglemenu:focus ~ .navmenu-mobile-overlay {
+.togglemenu:hover ~ .navmenu-mobile-overlay {
   display: block;
 }
 

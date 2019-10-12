@@ -6,8 +6,8 @@
     left: 0;
     width: 100%;
     padding: 15px;
-   z-index: 997;
-   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+    z-index: 997;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 
     .img {
         max-height: 26px;
@@ -35,17 +35,24 @@
     padding-top: 18px;
     background: $fondo_overlay;
     transition: 0.4s;
+
     a{
         color: white;
         padding: 10px 20px;
+    }
 
-
+    ul{
+        padding-left: 25px;
     }
     li {
         
         width: 240px;
-        height: 64px;
+        height: 34px;
 
+    }
+
+    label {
+        padding: 10px 20px;
     }
 }
 
@@ -60,18 +67,19 @@
     transition: all 0.4s;
     text-align: right;
     .fa-bars{
-        
     margin: 18px 18px 0 0;
     color: $color_iconos;
     }
-    &:focus~.navmenu-mobile {
+    &:hover~.navmenu-mobile {
         left: 0;
     }
-    &:focus~.navmenu-mobile-overlay{
+    &:hover~.navmenu-mobile-overlay{
         display: block;
     }
 }
 /*-----dropdown------*/
+
+
 .desplegable {
     display: none;
 }
