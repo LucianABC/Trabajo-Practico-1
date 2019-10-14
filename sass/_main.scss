@@ -18,6 +18,7 @@ body {
         font-size: 36px;
         font-family: $fuentetitulos;
         color: $colortitulos;
+        font-weight: 500;
     }
 
     h4 {
@@ -35,7 +36,7 @@ body {
 
 .fondoceleste {
     background-color: $fondo_claro;
-    color: $fondo_oscuro; 
+    color: $colortitulos; 
 }
 
 .roundbuttons {

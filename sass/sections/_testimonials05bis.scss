@@ -1,0 +1,48 @@
+#testimonials {
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
+    .testimonios {
+       
+        .item-testimonials {
+            img {
+                border-radius: 50%;
+                width: 150px;
+            }
+
+            h3 {
+                font-size: 20px;
+                color: black;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+            h4 {
+                font-size: 14px;
+                color: grey;
+                font-weight: 400;
+                margin: 0 0 15px;
+            }
+
+            p {
+                font-style: italic;
+                margin-bottom: 15px;
+            }
+
+        }
+
+        .dots {
+            margin: 40px;
+            .dot {
+                background-color:  #ddd;
+                border-radius: 50%;
+                width: 12px;
+                height: 12px;
+                margin: 5px;
+                &:hover {
+                   background-color: $acentos;
+                }
+            }
+        }
+
+
+    }
+} 
