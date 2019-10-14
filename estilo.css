@@ -37,6 +37,26 @@ body h4 {
   color: #00428a;
 }
 
+.roundbuttons {
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  padding: 5px;
+  margin: 4px;
+  text-align: center;
+  font-size: 22px;
+  width: 35px;
+  height: 35px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: 0;
+  padding: 7px 0;
+  text-align: center;
+}
+
 .flex {
   display: flex;
 }
@@ -62,13 +82,17 @@ body h4 {
   float: right;
 }
 
+.marginbottom {
+  margin-bottom: 30px;
+}
+
 .text-center {
   text-align: center;
 }
 
 .container {
   width: 100%;
-  padding-right: 50px;
+  padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -121,9 +145,13 @@ body h4 {
 .navmenu-mobile a {
   color: white;
   padding: 10px 20px;
+  display: block;
+  position: relative;
+  font-weight: 500;
 }
 .navmenu-mobile ul {
-  padding-left: 25px;
+  margin: 0;
+  padding: 0;
 }
 .navmenu-mobile li {
   width: 240px;
@@ -201,6 +229,71 @@ body h4 {
 /*-------desktop only-------------------------*/
 .navmenu-desktop {
   display: none;
+}
+
+.footer .footertop {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #004a99;
+}
+.footer h3 {
+  color: white;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.footer h4 {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer p {
+  color: #ecf5ff;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.footer ul {
+  padding-left: 0;
+  font-size: 14px;
+}
+.footer ul a {
+  color: #ecf5ff;
+}
+.footer ul li {
+  padding: 8px 0px;
+}
+.footer .waynefamily p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+.footer .contacto p {
+  font-size: 14px;
+  line-height: 26px;
+}
+.footer .contacto .socialbuttons .social {
+  font-size: 18px;
+  padding: 0;
+}
+.footer form {
+  flex-wrap: nowrap;
+}
+.footer form input {
+  box-sizing: border-box;
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+.footer form .button {
+  width: 35%;
+  font-size: 15px;
+}
+.footer .footerbot {
+  font-size: 14px;
+  padding: 30px 0;
+}
+.footer .footerbot span:last-child {
+  font-size: 13px;
 }
 
 #about-us header {
@@ -297,17 +390,6 @@ body h4 {
   height: 100%;
   color: white;
   background-color: rgba(19, 39, 57, 0.8);
-}
-#portfolio .portfolio-content .portfolio-item .portfolio-item-hover span {
-  border-radius: 50%;
-  background-color: #007bff;
-  color: white;
-  padding: 5px;
-  margin: 4px;
-  text-align: center;
-  font-size: 22px;
-  width: 35px;
-  height: 35px;
 }
 #portfolio .portfolio-content .portfolio-item .portfolio-item-hover h4 {
   color: white;

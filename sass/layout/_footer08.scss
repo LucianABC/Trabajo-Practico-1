@@ -1,0 +1,90 @@
+.footer {
+    
+    .footertop {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: $fondo;
+    }
+
+    h3 {
+        color: white;
+        font-weight: 400;
+        letter-spacing: 3px;
+    }
+    h4 {
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+    p {
+
+        color: $fondo_claro;
+        line-height: 24px;
+        font-size: 14px;
+        margin-bottom: 30px;
+
+
+    }
+
+    ul {
+        padding-left: 0;
+        font-size: 14px;
+        a {
+           color: $fondo_claro;
+        }
+
+         li{
+             padding: 8px 0px;
+         }
+    }
+    .waynefamily {
+        p {
+            font-family: $fuentetitulos;
+            font-size: 13px;
+
+        }
+    }
+    
+    .contacto {
+
+        p{
+            font-size: 14px;
+            line-height: 26px;
+
+        }
+
+        .socialbuttons{
+            .social {
+                font-size:18px;
+                padding:  0;
+            }
+        }
+    }
+    form {
+        flex-wrap: nowrap;
+            
+        input  {
+            box-sizing: border-box;
+            border: 0;
+            padding: 6px 8px;
+            width: 65%;
+        
+        }
+        .button {
+            width: 35%;
+            font-size: 15px; 
+        }
+    }
+
+    .footerbot {
+        font-size: 14px;
+        padding: 30px 0;
+        span {
+            &:last-child{
+                font-size:13px;
+            }
+        }
+    }
+} 

@@ -38,6 +38,26 @@ body {
     color: $fondo_oscuro; 
 }
 
+.roundbuttons {
+    border-radius: 50%;
+    background-color: $acentos;
+    color: white;
+    padding: 5px;
+    margin: 4px;
+    text-align: center;
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+} 
+
+.button {
+    background-color: $acentos;
+    color: white;
+    border: 0;
+    padding: 7px 0;
+    text-align: center;
+}
+
 
 .flex {
     display: flex;
@@ -61,13 +81,16 @@ body {
 }
   
 
+.marginbottom {
+    margin-bottom: 30px;
+}
 .text-center {
     text-align: center;
 }
 
 .container {
     width: 100%;
-    padding-right: 50px;
+    padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;

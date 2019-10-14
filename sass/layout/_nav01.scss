@@ -39,16 +39,19 @@
     a{
         color: white;
         padding: 10px 20px;
+        display: block;
+        position: relative;
+        font-weight: 500;
     }
 
     ul{
-        padding-left: 25px;
+        margin: 0;    
+        padding: 0; 
     }
+
     li {
-        
         width: 240px;
         height: 34px;
-
     }
 
     label {
@@ -66,13 +69,16 @@
     font-size: 24px;
     transition: all 0.4s;
     text-align: right;
+
     .fa-bars{
     margin: 18px 18px 0 0;
     color: $color_iconos;
     }
+
     &:hover~.navmenu-mobile {
         left: 0;
     }
+
     &:hover~.navmenu-mobile-overlay{
         display: block;
     }
