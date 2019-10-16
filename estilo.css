@@ -109,6 +109,9 @@ body h4 {
   text-align: center;
   padding: 60px 0;
 }
+.seccion header {
+  display: block;
+}
 .seccion header p {
   margin: auto;
   padding-bottom: 60px;
@@ -508,7 +511,6 @@ body h4 {
 }
 
 #why-us {
-  padding: 24px 0;
   background-color: #004a99;
 }
 #why-us h3 {
@@ -519,29 +521,45 @@ body h4 {
 }
 #why-us p {
   font-size: 15px;
-  margin: 10px 10px 60px;
+  margin: auto;
 }
-#why-us .card {
+#why-us .card-container {
+  margin-bottom: 24px;
+}
+#why-us .card-container .card {
   background-color: #00458f;
   border-radius: 15px;
-  margin: 15px;
+  margin: 0;
   padding: 15px;
 }
-#why-us .card:hover {
+#why-us .card-container .card:hover {
   background-color: #003b7a;
 }
-#why-us .card h5 {
+#why-us .card-container .card h5 {
   font-size: 22px;
   font-weight: 600;
   margin: 0 0 12px;
 }
-#why-us .card .fa {
+#why-us .card-container .card .fa {
   font-size: 48px;
   padding-top: 15px;
   color: #bfddfe;
 }
-#why-us .card .cardbody {
+#why-us .card-container .card .cardbody {
   padding: 15px;
+}
+#why-us .card-container .card .cardbody p {
+  padding-bottom: 30px;
+}
+#why-us .card-container .card .cardbody a {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+#why-us .card-container .card .cardbody a:hover {
+  border-bottom: white solid 2px;
 }
 #why-us .counters {
   justify-content: space-around;
@@ -559,6 +577,27 @@ body h4 {
   font-weight: bold;
 }
 
+@media (min-width: 992px) {
+  #why-us .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  #why-us .cards .card-container {
+    box-sizing: border-box;
+    max-width: 33.333333%;
+    padding: 0 15px;
+    margin-bottom: 24px;
+  }
+  #why-us .cards .card {
+    box-sizing: border-box;
+    margin: 0 15px;
+    padding: 15px 0;
+  }
+}
 .footer .footertop {
   padding-top: 30px;
   padding-bottom: 30px;

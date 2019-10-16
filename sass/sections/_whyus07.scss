@@ -1,5 +1,4 @@
 #why-us {
-    padding: 24px 0;
     background-color: $fondo;
 
     h3 {
@@ -10,31 +9,55 @@
     }
     p{
         font-size: 15px;
-        margin: 10px 10px 60px;
+        margin: auto;
     }
-    .card {
-        background-color: $fondo_card;
-        border-radius: 15px;
-        margin: 15px;
-        padding: 15px;
-        &:hover {
-            background-color: $fondo_cardhover;
-        }
-
-        h5 {
-            font-size: 22px;
-            font-weight: 600;
-            margin: 0 0 12px;
-        }
-
-        .fa {
-            font-size: 48px;
-            padding-top: 15px;
-            color: #bfddfe;
-
-        }
-        .cardbody {
+    .card-container {
+        margin-bottom: 24px;
+        
+        .card {
+            background-color: $fondo_card;
+            border-radius: 15px;
+            margin: 0;
             padding: 15px;
+
+            &:hover {
+                background-color: $fondo_cardhover;
+            }
+
+            
+
+            h5 {
+                font-size: 22px;
+                font-weight: 600;
+                margin: 0 0 12px;
+            }
+
+            .fa {
+                font-size: 48px;
+                padding-top: 15px;
+                color: #bfddfe;
+
+            }
+            .cardbody {
+                padding: 15px;
+
+                p {
+                    padding-bottom: 30px;
+                }
+
+                a{
+                    color: #fff;
+                    font-weight: 600;
+                    display: inline-block;
+                    transition: 0.3s ease-in-out;
+                    border-bottom: #00458f solid 2px;
+
+                    &:hover {
+                        border-bottom: white solid 2px;
+                    }
+                }
+
+            } 
         }
     }
     .counters {
@@ -53,3 +76,31 @@
         }
     }
 }
+
+@include desktop {
+    #why-us {
+            
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            box-sizing: border-box;
+            margin-right: -15px;
+            margin-left: -15px;
+        
+            .card-container {
+                box-sizing: border-box;
+                max-width: 33.333333%;
+                padding: 0 15px;
+                margin-bottom: 24px;
+            }
+            
+        .card {
+            box-sizing: border-box;
+            margin:0 15px;
+            padding: 15px 0; 
+        }
+        }
+
+    }
+}  
