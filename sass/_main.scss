@@ -6,6 +6,7 @@ body {
     background-color: $fondo_oscuro; 
     margin: 0;
     width: 100%;
+    line-height: 1.5;
     a {
     text-decoration: none;
     color: $acentos;
@@ -19,6 +20,7 @@ body {
         font-family: $fuentetitulos;
         color: $colortitulos;
         font-weight: 500;
+        margin: 0 0 20px 0;
     }
 
     h4 {
@@ -26,6 +28,8 @@ body {
         color: $colorsubtitulos;
         font-size: 18px;
         font-weight: 600;
+        margin: 0 0 20px 0;
+
     }
 }
  
@@ -101,6 +105,18 @@ body {
 
 
 .seccion {
-    padding: 24px 15px ;
     text-align: center;
+    padding: 60px 0;
+
+    header {
+        p{
+            
+            margin: auto;
+            padding-bottom: 60px;
+
+            @include desktop {
+                width: 50%;   
+            }
+        }
+    }
 }
