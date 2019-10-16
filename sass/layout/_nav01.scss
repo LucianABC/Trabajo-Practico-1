@@ -125,8 +125,68 @@
 }
 
 /*-------desktop only-------------------------*/
-.navmenu-desktop {
-    display: none;
-}
 
- 
+@include desktop {
+    .togglemenu {
+        display: none;
+    }
+
+    .navmenu-mobile {
+        display: none;
+    }
+    
+    #nav {
+        align-items: center;
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navmenu-desktop {
+           height: 50px;
+            ul {
+                display: block;
+                li {
+                    float: left;
+                    position: relative;
+                    margin: 0px 15px 15px 15px;
+                }
+            }
+
+            a {
+
+                font-size: 14px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+
+                &:hover {
+                    color: #007bff;
+                }
+            }
+        .desplegable {
+                    
+            display: block;
+            position: absolute;
+            padding: 10px 0;
+            background: #fff;
+            opacity: 0;
+            box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+            transition: ease all 0.3s;
+            left: 0;
+            visibility: hidden;
+                &:hover > ul {
+                    opacity: 1;
+                    top: 100%;
+                    visibility: visible;
+            }
+            li {
+                width: 180px;
+                position: relative;
+            }
+            
+        }
+    }   
+}
+}
+/* ver que onda esto, no tengo ni idea qué estoy haciendo (?) */
+
