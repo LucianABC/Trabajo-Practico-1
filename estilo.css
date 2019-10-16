@@ -120,6 +120,9 @@ body h4 {
 #nav .img {
   max-height: 26px;
 }
+#nav .navmenu-desktop {
+  display: none;
+}
 
 /*--------------M O B I LE -----------------*/
 .navmenu-mobile-overlay {
@@ -247,6 +250,7 @@ body h4 {
     justify-content: space-between;
   }
   #nav .navmenu-desktop {
+    display: flex;
     height: 50px;
   }
   #nav .navmenu-desktop ul {

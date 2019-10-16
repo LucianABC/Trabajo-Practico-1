@@ -12,6 +12,10 @@
     .img {
         max-height: 26px;
     }
+
+    .navmenu-desktop {
+        display: none;
+    }
 }
 /*--------------M O B I LE -----------------*/
 .navmenu-mobile-overlay {
@@ -143,6 +147,7 @@
             justify-content: space-between;
         }
         .navmenu-desktop {
+            display: flex;
            height: 50px;
             ul {
                 display: block;
