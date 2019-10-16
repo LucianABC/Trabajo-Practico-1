@@ -165,6 +165,42 @@ body h4 {
 .navmenu-mobile label {
   padding: 10px 20px;
 }
+.navmenu-mobile .desplegable {
+  display: none;
+}
+.navmenu-mobile .up {
+  display: none;
+}
+.navmenu-mobile #check {
+  display: none;
+}
+.navmenu-mobile #check:checked + .desplegable {
+  display: block;
+}
+.navmenu-mobile #check:checked + .down {
+  display: none;
+}
+.navmenu-mobile #check:checked + .up {
+  display: block;
+}
+.navmenu-mobile .desplegable2 {
+  display: none;
+}
+.navmenu-mobile .up {
+  display: none;
+}
+.navmenu-mobile #check2 {
+  display: none;
+}
+.navmenu-mobile #check2:checked + .desplegable2 {
+  display: block;
+}
+.navmenu-mobile #check2:checked + .down {
+  display: none;
+}
+.navmenu-mobile #check2:checked + .up {
+  display: block;
+}
 
 .togglemenu {
   position: fixed;
@@ -189,48 +225,6 @@ body h4 {
 }
 
 /*-----dropdown------*/
-.desplegable {
-  display: none;
-}
-
-.up {
-  display: none;
-}
-
-#check {
-  display: none;
-}
-#check:checked + .desplegable {
-  display: block;
-}
-#check:checked + .down {
-  display: none;
-}
-#check:checked + .up {
-  display: block;
-}
-
-.desplegable2 {
-  display: none;
-}
-
-.up {
-  display: none;
-}
-
-#check2 {
-  display: none;
-}
-#check2:checked + .desplegable2 {
-  display: block;
-}
-#check2:checked + .down {
-  display: none;
-}
-#check2:checked + .up {
-  display: block;
-}
-
 /*-------desktop only-------------------------*/
 @media (min-width: 992px) {
   .togglemenu {
@@ -252,6 +246,23 @@ body h4 {
   #nav .navmenu-desktop {
     display: flex;
     height: 50px;
+    /*
+    .desplegable {
+
+        display: block;
+            &:h
+            over > ul {
+                opacity: 1;
+                top: 100%;
+                visibility: visible;
+        } 
+        li {
+            width: 180px;
+            position: relative;
+        }
+
+
+    } */
   }
   #nav .navmenu-desktop ul {
     display: block;
@@ -259,35 +270,48 @@ body h4 {
   #nav .navmenu-desktop ul li {
     float: left;
     position: relative;
-    margin: 0px 15px 15px 15px;
   }
   #nav .navmenu-desktop a {
+    color: #004289;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    padding: 10px 15px;
   }
   #nav .navmenu-desktop a:hover {
     color: #007bff;
   }
-  #nav .navmenu-desktop .desplegable {
-    display: block;
+  #nav .navmenu-desktop .dropdown .dropdown-style {
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     padding: 10px 0;
     background: #fff;
-    opacity: 0;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: ease all 0.3s;
-    left: 0;
-    visibility: hidden;
   }
-  #nav .navmenu-desktop .desplegable:hover > ul {
-    opacity: 1;
+  #nav .navmenu-desktop .dropdown .dropdown-style li {
+    width: 180px;
+  }
+  #nav .navmenu-desktop .dropdown .dropdown-style a {
+    padding: 10px 15px;
+    display: block;
+  }
+  #nav .navmenu-desktop .dropdown .desplegable1 {
+    left: 0;
     top: 100%;
+  }
+  #nav .navmenu-desktop .dropdown .desplegable1 .desplegable2 {
+    left: 100%;
+    top: 0;
+  }
+  #nav .navmenu-desktop .dropdown .desplegable1 .dropdown2:hover > .desplegable2 {
+    opacity: 1;
     visibility: visible;
   }
-  #nav .navmenu-desktop .desplegable li {
-    width: 180px;
-    position: relative;
+  #nav .navmenu-desktop .dropdown:hover > .desplegable1 {
+    opacity: 1;
+    visibility: visible;
   }
 }
 /* ver que onda esto, no tengo ni idea qué estoy haciendo (?) */

@@ -61,35 +61,8 @@
     label {
         padding: 10px 20px;
     }
-}
 
-.togglemenu {
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 9998;
-    border: 0;
-    background: none;
-    font-size: 24px;
-    transition: all 0.4s;
-    text-align: right;
-
-    .fa-bars{
-    margin: 18px 18px 0 0;
-    color: $color_iconos;
-    }
-
-    &:hover~.navmenu-mobile {
-        left: 0;
-    }
-
-    &:hover~.navmenu-mobile-overlay{
-        display: block;
-    }
-}
-/*-----dropdown------*/
-
-
+    
 .desplegable {
     display: none;
 }
@@ -128,6 +101,35 @@
     }
 }
 
+}
+
+.togglemenu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    text-align: right;
+
+    .fa-bars{
+    margin: 18px 18px 0 0;
+    color: $color_iconos;
+    }
+
+    &:hover~.navmenu-mobile {
+        left: 0;
+    }
+
+    &:hover~.navmenu-mobile-overlay{
+        display: block;
+    }
+}
+/*-----dropdown------*/
+
+
 /*-------desktop only-------------------------*/
 
 @include desktop {
@@ -141,57 +143,100 @@
     
     #nav {
         align-items: center;
+        
         .container {
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
+        
         .navmenu-desktop {
             display: flex;
-           height: 50px;
+            height: 50px;
+           
             ul {
                 display: block;
+            
                 li {
                     float: left;
                     position: relative;
-                    margin: 0px 15px 15px 15px;
                 }
             }
 
             a {
-
+                color: $color_iconos;
                 font-size: 14px;
                 font-family: "Montserrat", sans-serif;
                 font-weight: 500;
+                padding: 10px 15px ;
 
                 &:hover {
-                    color: #007bff;
+                    color: $acentos;
                 }
             }
-        .desplegable {
-                    
-            display: block;
-            position: absolute;
-            padding: 10px 0;
-            background: #fff;
-            opacity: 0;
-            box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-            transition: ease all 0.3s;
-            left: 0;
-            visibility: hidden;
-                &:hover > ul {
-                    opacity: 1;
-                    top: 100%;
-                    visibility: visible;
-            }
-            li {
-                width: 180px;
-                position: relative;
-            }
+            .dropdown {
             
-        }
-    }   
-}
+                .dropdown-style {
+                    opacity: 0; 
+                    visibility: hidden;
+                    position: absolute;
+                    padding: 10px 0;
+                    background: #fff;
+                    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+                    transition: ease all 0.3s;
+
+                    
+                    li {
+                        width: 180px;
+                    }
+
+                    a {
+                         padding: 10px 15px ;
+                         display: block;
+                    }
+                }
+
+                .desplegable1 {
+                    left: 0;
+                    top: 100%;
+                    
+
+                    .desplegable2 {
+                       left: 100%;
+                       top: 0;
+                    }
+                    .dropdown2 {
+                            
+                        &:hover > .desplegable2 {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+
+                &:hover > .desplegable1 {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            } /*
+            .desplegable {
+                        
+                display: block;
+                    &:h
+                    over > ul {
+                        opacity: 1;
+                        top: 100%;
+                        visibility: visible;
+                } 
+                li {
+                    width: 180px;
+                    position: relative;
+                }
+                
+                
+            } */
+         }   
+    }
 }
 /* ver que onda esto, no tengo ni idea qué estoy haciendo (?) */
 
