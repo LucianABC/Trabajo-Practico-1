@@ -1,0 +1,28 @@
+/*----se usa solo en el body, la parte de copyright tiene fondo transparente y se ve este color ---*/
+/*---botones, links----*/
+/* -------------------------------------------------------- */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.fondoblanco {
+  background-color: white;
+  color: #00428a;
+}
+
+.fondoceleste {
+  background-color: #ecf5ff;
+  color: #00428a;
+}
+
+/*----se usa solo en el body, la parte de copyright tiene fondo transparente y se ve este color ---*/
+/*---botones, links----*/
+#home {
+  background: pink;
+}
+
+/*# sourceMappingURL=all.css.map */
