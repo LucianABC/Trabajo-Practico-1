@@ -3,7 +3,6 @@
 /* -------------------------------------------------------- */
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444;
   background-color: #00428a;
 }
 body a {
@@ -21,4 +20,8 @@ body a {
   color: #00428a;
 }
 
-/*# sourceMappingURL=estilo.css.map */
+#team {
+  background: violet;
+}
+
+/*# sourceMappingURL=all.css.map */
