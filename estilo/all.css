@@ -4,6 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #00428a;
+  margin: 0;
 }
 body a {
   text-decoration: none;
@@ -24,8 +25,8 @@ body a {
   display: flex;
   flex-direction: column;
   background: #ecf5ff;
-  width: 87vw;
-  height: 2000px;
+  width: 100vw;
+  height: auto;
 }
 #services .sub04 {
   text-align: center;
