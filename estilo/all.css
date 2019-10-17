@@ -26,6 +26,7 @@ body a {
   width: 100vw;
   height: auto;
   margin: 0;
+  padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -34,6 +35,7 @@ body a {
 }
 #our-clients header {
   width: 90vw;
+  padding-bottom: 50px;
 }
 #our-clients header h1 {
   color: #283d50;
@@ -58,14 +60,15 @@ body a {
   height: 15vh;
   display: flex;
   justify-content: center;
+  border: 1px solid #d6eaff;
+}
+#our-clients .clientes:hover img {
+  transform: scale(1.2);
 }
 #our-clients .clientes img {
   width: 50vw;
   align-self: center;
-  transition: 0.5s ease-in;
-}
-#our-clients .clientes img:hover .clientes {
-  transform: scale(1.2);
+  transition: 0.3s ease-in;
 }
 
 /*# sourceMappingURL=all.css.map */
