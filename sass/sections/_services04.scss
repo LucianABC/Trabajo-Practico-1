@@ -2,20 +2,25 @@
     display: flex;
     flex-direction: column;
     background: $fondo_claro;
-    width: 100vw;
-    height: 1000px;
+    width: 87vw;
+    height: 2000px;
     .sub04{
         text-align: center;
         padding: 20px 5px 50px 5px;
+        display: inline-block;
+        width: 87vw;
+
         h1{
             font-family: $fuentetitulos;
             font-weight: 400;
             font-size: 233%; 
         }
         h2{
+            display:inline-block;
             font-family: $fuentegeneral;
             font-weight: 400;
             font-size: 108%;
+            width: 77vw;
         }
     }
     .t01{
@@ -101,6 +106,193 @@
                 position: absolute;
                 left:-23px;
                 
+            }
+        }
+        &:hover{
+            cursor: text;
+            transform: translateY(-5px);
+            h1{
+                color:$acentos;
+            }
+        }  
+    }
+
+    .t03{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding:10px 40px 10px 0px;
+        text-align: left;
+        background: white;
+        border-radius: 15px;
+        width: 70vw;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease-out;
+        margin-bottom: 40px;
+        h1{
+            font-family: $fuentetitulos;
+            flex-direction: column;
+            font-size: 130%;
+            margin-left:50px;
+            transition: all 0.5s ease-out;
+        }
+        .t03sub{
+            display: flex;
+            flex-direction: row;
+            h2{
+                font-family: $fuentegeneral;
+                font-weight: 400;
+                font-size: 90%;
+                margin-left:50px;
+                line-height: 1.6;
+            }
+            .iconify{
+                color:#20c997;
+                font-size: 400%;
+                position: absolute;
+                left:-23px;
+                
+            }
+        }
+        &:hover{
+            cursor: text;
+            transform: translateY(-5px);
+            h1{
+                color:$acentos;
+            }
+        }  
+    }
+
+    .t04{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding:10px 40px 10px 0px;
+        text-align: left;
+        background: white;
+        border-radius: 15px;
+        width: 70vw;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease-out;
+        margin-bottom: 40px;
+        h1{
+            font-family: $fuentetitulos;
+            flex-direction: column;
+            font-size: 130%;
+            margin-left:50px;
+            transition: all 0.5s ease-out;
+        }
+        .t04sub{
+            display: flex;
+            flex-direction: row;
+            h2{
+                font-family: $fuentegeneral;
+                font-weight: 400;
+                font-size: 90%;
+                margin-left:50px;
+                line-height: 1.6;
+            }
+            .iconify{
+                color: #28a745;
+                font-size: 400%;
+                position: absolute;
+                left:-23px;
+                
+            }
+        }
+        &:hover{
+            cursor: text;
+            transform: translateY(-5px);
+            h1{
+                color:$acentos;
+            }
+        }  
+    }
+
+    .t05{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding:10px 40px 10px 0px;
+        text-align: left;
+        background: white;
+        border-radius: 15px;
+        width: 70vw;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease-out;
+        margin-bottom: 40px;
+        h1{
+            font-family: $fuentetitulos;
+            flex-direction: column;
+            font-size: 130%;
+            margin-left:50px;
+            transition: all 0.5s ease-out;
+        }
+        .t05sub{
+            display: flex;
+            flex-direction: row;
+            h2{
+                font-family: $fuentegeneral;
+                font-weight: 400;
+                font-size: 90%;
+                margin-left:50px;
+                line-height: 1.6;
+            }
+            .iconify{
+                color: rgb(205, 255, 69);
+                font-size: 400%;
+                position: absolute;
+                left:-23px;
+                
+            }
+        }
+        &:hover{
+            cursor: text;
+            transform: translateY(-5px);
+            h1{
+                color:$acentos;
+            }
+        }  
+    }
+
+    .t06{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding:10px 40px 10px 0px;
+        text-align: left;
+        background: white;
+        border-radius: 15px;
+        width: 70vw;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease-out;
+        margin-bottom: 40px;
+        h1{
+            font-family: $fuentetitulos;
+            flex-direction: column;
+            font-size: 130%;
+            margin-left:50px;
+            transition: all 0.5s ease-out;
+        }
+        .t06sub{
+            display: flex;
+            flex-direction: row;
+            h2{
+                font-family: $fuentegeneral;
+                font-weight: 400;
+                font-size: 90%;
+                margin-left:50px;
+                line-height: 1.6;
+            }
+            .iconify{
+                color: blue;
+                font-size: 400%;
+                position: absolute;
+                left:-23px;                
             }
         }
         &:hover{

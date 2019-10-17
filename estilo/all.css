@@ -24,12 +24,14 @@ body a {
   display: flex;
   flex-direction: column;
   background: #ecf5ff;
-  width: 100vw;
-  height: 1000px;
+  width: 87vw;
+  height: 2000px;
 }
 #services .sub04 {
   text-align: center;
   padding: 20px 5px 50px 5px;
+  display: inline-block;
+  width: 87vw;
 }
 #services .sub04 h1 {
   font-family: "Montserrat", sans-serif;
@@ -37,9 +39,11 @@ body a {
   font-size: 233%;
 }
 #services .sub04 h2 {
+  display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 108%;
+  width: 77vw;
 }
 #services .t01 {
   display: flex;
@@ -129,6 +133,186 @@ body a {
   transform: translateY(-5px);
 }
 #services .t02:hover h1 {
+  color: #007bff;
+}
+#services .t03 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 10px 40px 10px 0px;
+  text-align: left;
+  background: white;
+  border-radius: 15px;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  margin-bottom: 40px;
+}
+#services .t03 h1 {
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+  font-size: 130%;
+  margin-left: 50px;
+  transition: all 0.5s ease-out;
+}
+#services .t03 .t03sub {
+  display: flex;
+  flex-direction: row;
+}
+#services .t03 .t03sub h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 90%;
+  margin-left: 50px;
+  line-height: 1.6;
+}
+#services .t03 .t03sub .iconify {
+  color: #20c997;
+  font-size: 400%;
+  position: absolute;
+  left: -23px;
+}
+#services .t03:hover {
+  cursor: text;
+  transform: translateY(-5px);
+}
+#services .t03:hover h1 {
+  color: #007bff;
+}
+#services .t04 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 10px 40px 10px 0px;
+  text-align: left;
+  background: white;
+  border-radius: 15px;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  margin-bottom: 40px;
+}
+#services .t04 h1 {
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+  font-size: 130%;
+  margin-left: 50px;
+  transition: all 0.5s ease-out;
+}
+#services .t04 .t04sub {
+  display: flex;
+  flex-direction: row;
+}
+#services .t04 .t04sub h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 90%;
+  margin-left: 50px;
+  line-height: 1.6;
+}
+#services .t04 .t04sub .iconify {
+  color: #28a745;
+  font-size: 400%;
+  position: absolute;
+  left: -23px;
+}
+#services .t04:hover {
+  cursor: text;
+  transform: translateY(-5px);
+}
+#services .t04:hover h1 {
+  color: #007bff;
+}
+#services .t05 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 10px 40px 10px 0px;
+  text-align: left;
+  background: white;
+  border-radius: 15px;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  margin-bottom: 40px;
+}
+#services .t05 h1 {
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+  font-size: 130%;
+  margin-left: 50px;
+  transition: all 0.5s ease-out;
+}
+#services .t05 .t05sub {
+  display: flex;
+  flex-direction: row;
+}
+#services .t05 .t05sub h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 90%;
+  margin-left: 50px;
+  line-height: 1.6;
+}
+#services .t05 .t05sub .iconify {
+  color: #cdff45;
+  font-size: 400%;
+  position: absolute;
+  left: -23px;
+}
+#services .t05:hover {
+  cursor: text;
+  transform: translateY(-5px);
+}
+#services .t05:hover h1 {
+  color: #007bff;
+}
+#services .t06 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 10px 40px 10px 0px;
+  text-align: left;
+  background: white;
+  border-radius: 15px;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  margin-bottom: 40px;
+}
+#services .t06 h1 {
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+  font-size: 130%;
+  margin-left: 50px;
+  transition: all 0.5s ease-out;
+}
+#services .t06 .t06sub {
+  display: flex;
+  flex-direction: row;
+}
+#services .t06 .t06sub h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 90%;
+  margin-left: 50px;
+  line-height: 1.6;
+}
+#services .t06 .t06sub .iconify {
+  color: blue;
+  font-size: 400%;
+  position: absolute;
+  left: -23px;
+}
+#services .t06:hover {
+  cursor: text;
+  transform: translateY(-5px);
+}
+#services .t06:hover h1 {
   color: #007bff;
 }
 
