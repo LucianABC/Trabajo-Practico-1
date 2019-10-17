@@ -66,3 +66,37 @@
         }
     }
 }
+
+@include desktop  {
+    #portfolio {
+
+        .filtros {
+            
+            ul {
+                justify-content: center;
+            }
+        }
+
+        .portfolio-content {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+
+            .contenedor-item {
+                padding: 0 15px;
+                max-width: 33.333333%;
+                box-sizing: border-box;
+                margin-bottom: 30px;
+
+                .portfolio-item {
+                    box-sizing: border-box;
+                    margin: 0;
+                } 
+    
+            }
+        }
+
+
+    }
+}  

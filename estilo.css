@@ -473,6 +473,27 @@ body h4 {
   display: flex;
 }
 
+@media (min-width: 992px) {
+  #portfolio .filtros ul {
+    justify-content: center;
+  }
+  #portfolio .portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  #portfolio .portfolio-content .contenedor-item {
+    padding: 0 15px;
+    max-width: 33.333333%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  #portfolio .portfolio-content .contenedor-item .portfolio-item {
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
 #testimonials {
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
