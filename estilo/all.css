@@ -21,7 +21,115 @@ body a {
 }
 
 #services {
-  background: violet;
+  display: flex;
+  flex-direction: column;
+  background: #ecf5ff;
+  width: 100vw;
+  height: 1000px;
+}
+#services .sub04 {
+  text-align: center;
+  padding: 20px 5px 50px 5px;
+}
+#services .sub04 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 233%;
+}
+#services .sub04 h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 108%;
+}
+#services .t01 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 10px 40px 10px 0px;
+  text-align: left;
+  background: white;
+  border-radius: 15px;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  margin-bottom: 40px;
+}
+#services .t01 h1 {
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+  font-size: 130%;
+  margin-left: 50px;
+  transition: all 0.5s ease-out;
+}
+#services .t01 .t01sub {
+  display: flex;
+  flex-direction: row;
+}
+#services .t01 .t01sub h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 90%;
+  margin-left: 50px;
+  line-height: 1.6;
+}
+#services .t01 .t01sub .iconify {
+  color: red;
+  font-size: 400%;
+  position: absolute;
+  left: -23px;
+}
+#services .t01:hover {
+  cursor: text;
+  transform: translateY(-5px);
+}
+#services .t01:hover h1 {
+  color: #007bff;
+}
+#services .t02 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 10px 40px 10px 0px;
+  text-align: left;
+  background: white;
+  border-radius: 15px;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  margin-bottom: 40px;
+}
+#services .t02 h1 {
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+  font-size: 130%;
+  margin-left: 50px;
+  transition: all 0.5s ease-out;
+}
+#services .t02 .t02sub {
+  display: flex;
+  flex-direction: row;
+}
+#services .t02 .t02sub h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 90%;
+  margin-left: 50px;
+  line-height: 1.6;
+}
+#services .t02 .t02sub .iconify {
+  color: #ffc107;
+  font-size: 400%;
+  position: absolute;
+  left: -23px;
+}
+#services .t02:hover {
+  cursor: text;
+  transform: translateY(-5px);
+}
+#services .t02:hover h1 {
+  color: #007bff;
 }
 
 /*# sourceMappingURL=all.css.map */

@@ -1,3 +1,115 @@
 #services{
-    background: violet;
+    display: flex;
+    flex-direction: column;
+    background: $fondo_claro;
+    width: 100vw;
+    height: 1000px;
+    .sub04{
+        text-align: center;
+        padding: 20px 5px 50px 5px;
+        h1{
+            font-family: $fuentetitulos;
+            font-weight: 400;
+            font-size: 233%; 
+        }
+        h2{
+            font-family: $fuentegeneral;
+            font-weight: 400;
+            font-size: 108%;
+        }
+    }
+    .t01{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding:10px 40px 10px 0px;
+        text-align: left;
+        background: white;
+        border-radius: 15px;
+        width: 70vw;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease-out;
+        margin-bottom: 40px;
+        h1{
+            font-family: $fuentetitulos;
+            flex-direction: column;
+            font-size: 130%;
+            margin-left:50px;
+            transition: all 0.5s ease-out;
+        }
+        .t01sub{
+            display: flex;
+            flex-direction: row;
+            h2{
+                font-family: $fuentegeneral;
+                font-weight: 400;
+                font-size: 90%;
+                margin-left:50px;
+                line-height: 1.6;
+            }
+            .iconify{
+                color:red;
+                font-size: 400%;
+                position: absolute;
+                left:-23px;
+                
+            }
+        }
+        &:hover{
+            cursor: text;
+            transform: translateY(-5px);
+            h1{
+                color:$acentos;
+            }
+        }  
+    }
+
+    .t02{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding:10px 40px 10px 0px;
+        text-align: left;
+        background: white;
+        border-radius: 15px;
+        width: 70vw;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease-out;
+        margin-bottom: 40px;
+        h1{
+            font-family: $fuentetitulos;
+            flex-direction: column;
+            font-size: 130%;
+            margin-left:50px;
+            transition: all 0.5s ease-out;
+        }
+        .t02sub{
+            display: flex;
+            flex-direction: row;
+            h2{
+                font-family: $fuentegeneral;
+                font-weight: 400;
+                font-size: 90%;
+                margin-left:50px;
+                line-height: 1.6;
+            }
+            .iconify{
+                color:#ffc107;
+                font-size: 400%;
+                position: absolute;
+                left:-23px;
+                
+            }
+        }
+        &:hover{
+            cursor: text;
+            transform: translateY(-5px);
+            h1{
+                color:$acentos;
+            }
+        }  
+    }
+
 }
