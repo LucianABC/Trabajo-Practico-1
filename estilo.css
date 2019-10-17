@@ -706,4 +706,29 @@ body h4 {
   font-size: 13px;
 }
 
+@media (min-width: 992px) {
+  .footer .footertop .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-between;
+  }
+  .footer .footertop .container2 .waynefamily {
+    box-sizing: border-box;
+    width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer .footertop .container2 .usefullinks, .footer .footertop .container2 .contacto, .footer .footertop .container2 .newsletter {
+    box-sizing: border-box;
+    max-width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer .footertop .container2 .socialbuttons {
+    justify-content: flex-start;
+  }
+}
+
 /*# sourceMappingURL=estilo.css.map */
