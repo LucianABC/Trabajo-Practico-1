@@ -26,18 +26,24 @@ body a {
   flex-direction: column;
   background: #ecf5ff;
   width: 100vw;
+<<<<<<< HEAD
   height: auto;
+=======
+  height: 1500px;
+>>>>>>> dadf7f679eda15038bba7c97a6b4d51ba5da7294
 }
 #services .sub04 {
   text-align: center;
-  padding: 20px 5px 50px 5px;
+  padding: 50px 5px 50px 5px;
   display: inline-block;
   width: 87vw;
 }
 #services .sub04 h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 233%;
+  color: #283d50;
+  margin: 0px;
 }
 #services .sub04 h2 {
   display: inline-block;
@@ -45,6 +51,7 @@ body a {
   font-weight: 400;
   font-size: 108%;
   width: 77vw;
+  color: #556877;
 }
 #services .t01 {
   display: flex;
@@ -59,6 +66,7 @@ body a {
   overflow: hidden;
   transition: all 0.3s ease-out;
   margin-bottom: 40px;
+  color: #283d50;
 }
 #services .t01 h1 {
   font-family: "Montserrat", sans-serif;
@@ -66,6 +74,7 @@ body a {
   font-size: 130%;
   margin-left: 50px;
   transition: all 0.5s ease-out;
+  margin-bottom: 5px;
 }
 #services .t01 .t01sub {
   display: flex;
@@ -111,6 +120,7 @@ body a {
   font-size: 130%;
   margin-left: 50px;
   transition: all 0.5s ease-out;
+  margin-bottom: 5px;
 }
 #services .t02 .t02sub {
   display: flex;
@@ -156,6 +166,7 @@ body a {
   font-size: 130%;
   margin-left: 50px;
   transition: all 0.5s ease-out;
+  margin-bottom: 5px;
 }
 #services .t03 .t03sub {
   display: flex;
@@ -201,6 +212,7 @@ body a {
   font-size: 130%;
   margin-left: 50px;
   transition: all 0.5s ease-out;
+  margin-bottom: 5px;
 }
 #services .t04 .t04sub {
   display: flex;
@@ -246,6 +258,7 @@ body a {
   font-size: 130%;
   margin-left: 50px;
   transition: all 0.5s ease-out;
+  margin-bottom: 5px;
 }
 #services .t05 .t05sub {
   display: flex;
@@ -291,6 +304,7 @@ body a {
   font-size: 130%;
   margin-left: 50px;
   transition: all 0.5s ease-out;
+  margin-bottom: 5px;
 }
 #services .t06 .t06sub {
   display: flex;
