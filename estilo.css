@@ -531,6 +531,28 @@ body h4 {
   background-color: #007bff;
 }
 
+@media (min-width: 992px) {
+  #testimonials .testimonios .centrado-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #testimonials .testimonios .item-testimonials {
+    text-align: left;
+    width: 60%;
+  }
+  #testimonials .testimonios .item-testimonials img {
+    float: left;
+    width: 120px;
+  }
+  #testimonials .testimonios .item-testimonials h3, #testimonials .testimonios .item-testimonials h4, #testimonials .testimonios .item-testimonials p {
+    margin-left: 140px;
+  }
+  #testimonials .testimonios .item-testimonials p {
+    margin: 0 0 15px 140px;
+    box-sizing: border-box;
+  }
+}
 #why-us {
   background-color: #004a99;
 }

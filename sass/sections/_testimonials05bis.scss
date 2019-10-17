@@ -46,3 +46,34 @@
 
     }
 } 
+
+@include desktop {
+     #testimonials {
+         .testimonios {
+            .centrado-items {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .item-testimonials {
+                  text-align: left;
+                  width: 60%;
+        
+
+                img {
+                    float: left;
+                    width: 120px;
+                }
+
+                h3, h4, p {
+                    margin-left: 140px;
+                }
+
+                p{
+                    margin: 0 0 15px 140px;
+                    box-sizing: border-box;
+                }
+            }
+        } 
+     } 
+}
