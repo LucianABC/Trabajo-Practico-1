@@ -1,10 +1,9 @@
 /* Error: Undefined mixin.
  *    ,
- * 77 | / @include desktop{
- * 78 | |     #home{
- * 79 | |         width:700px; 
- * 80 | |     }
- * 81 | \ }
+ * 77 | / @include desktop {
+ * 78 | |     
+ * 79 | |         flex-direction: row;
+ * 80 | \     }
  *    '
  *   sass\layout\_home02.scss 77:1  @import
  *   sass\all.scss 4:9              root stylesheet */
@@ -17,5 +16,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 77 \2502  \250c  @include desktop{\a 78 \2502  \2502      #home{\a 79 \2502  \2502          width:700px; \a 80 \2502  \2502      }\a 81 \2502  \2514  }\a    \2575 \a   sass\\layout\\_home02.scss 77:1  @import\a   sass\\all.scss 4:9              root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 77 \2502  \250c  @include desktop {\a 78 \2502  \2502      \a 79 \2502  \2502          flex-direction: row;\a 80 \2502  \2514      }\a    \2575 \a   sass\\layout\\_home02.scss 77:1  @import\a   sass\\all.scss 4:9              root stylesheet";
 }
