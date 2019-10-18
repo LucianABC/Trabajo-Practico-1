@@ -59,58 +59,70 @@
     }
 
     li {
-        width: 240px;
-        height: 34px;
+        width: 100%;
         height: auto;
+
+        label {
+            padding: 10px 20px;
+            width: 100%; 
+    
+            .fa {
+                width: 15px;
+            }
+        }
     }
 
-    label {
-        padding: 10px 20px;
-    }
+                
 
+    .dropdown-button {
+        width: 100%;
+    }
     
 .desplegable {
     display: none;
     margin-left: 25px;
 }
-
+ 
 .up {
     display: none;
 }
+
 #check {
     display: none;
-    &:checked + .desplegable {
+    &:checked ~ .desplegable {
         display: block;
     }
-    &:checked + .down {
+    &:checked ~ label > .down  {
         display: none;
     }
-    &:checked + .up {
-        display: block;
+    &:checked ~ label > .up {
+        display: inline-flex;
     }
-}
+} 
 
 .desplegable2 {
     display: none;
     margin-left: 50px;
-}
-.up {
-    display: none;
+
+    li {
+        margin: 15px;
+    }
 }
 #check2 {
     display: none;
-    &:checked + .desplegable2 {
+    &:checked ~ .desplegable2 {
         display: block;
     }
-    &:checked + .down {
+    &:checked ~ label > .down  {
         display: none;
     }
-    &:checked + .up {
-        display: block;
+    &:checked ~ label > .up {
+        display: inline-flex;
     }
 }
+    }
 
-}
+
 
 .togglemenu {
     position: fixed;

@@ -176,12 +176,18 @@ body h4 {
   position: relative;
 }
 .navmenu-mobile li {
-  width: 240px;
-  height: 34px;
+  width: 100%;
   height: auto;
 }
-.navmenu-mobile label {
+.navmenu-mobile li label {
   padding: 10px 20px;
+  width: 100%;
+}
+.navmenu-mobile li label .fa {
+  width: 15px;
+}
+.navmenu-mobile .dropdown-button {
+  width: 100%;
 }
 .navmenu-mobile .desplegable {
   display: none;
@@ -193,33 +199,30 @@ body h4 {
 .navmenu-mobile #check {
   display: none;
 }
-.navmenu-mobile #check:checked + .desplegable {
+.navmenu-mobile #check:checked ~ .desplegable {
   display: block;
 }
-.navmenu-mobile #check:checked + .down {
+.navmenu-mobile #check:checked ~ label > .down {
   display: none;
 }
-.navmenu-mobile #check:checked + .up {
-  display: block;
+.navmenu-mobile #check:checked ~ label > .up {
+  display: inline-flex;
 }
 .navmenu-mobile .desplegable2 {
   display: none;
   margin-left: 50px;
 }
-.navmenu-mobile .up {
-  display: none;
-}
 .navmenu-mobile #check2 {
   display: none;
 }
-.navmenu-mobile #check2:checked + .desplegable2 {
+.navmenu-mobile #check2:checked ~ .desplegable2 {
   display: block;
 }
-.navmenu-mobile #check2:checked + .down {
+.navmenu-mobile #check2:checked ~ label > .down {
   display: none;
 }
-.navmenu-mobile #check2:checked + .up {
-  display: block;
+.navmenu-mobile #check2:checked ~ label > .up {
+  display: inline-flex;
 }
 
 .togglemenu {
