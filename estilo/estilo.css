@@ -1,8 +1,8 @@
-@charset "UTF-8";
-/*---botones, links----*/
 /* -------------------------------------------------------- */
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #00428a;
+  margin: 0;
   color: white;
   font-size: 16px;
   background-color: #00428a;
@@ -10,10 +10,16 @@ body {
   width: 100%;
   line-height: 1.5;
 }
+
 body a {
   text-decoration: none;
   color: #007bff;
 }
+
+.fondoblanco {
+  background-color: white;
+  color: #00428a;
+
 body ul {
   list-style: none;
 }
@@ -39,6 +45,241 @@ body h4 {
 
 .fondoceleste {
   background-color: #ecf5ff;
+  color: #00428a;
+}
+
+#team {
+  width: 100vw;
+  height: auto;
+  background: white;
+  padding-bottom: 50px;
+}
+#team header {
+  padding: 50px 0px 50px 0px;
+}
+#team header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%;
+  text-align: center;
+  margin: 5px;
+  color: #283d50;
+  font-weight: 400;
+}
+#team header h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 95%;
+  font-weight: 400;
+  text-align: center;
+  color: #556877;
+  line-height: 1.6;
+}
+#team .card01 {
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  background: url("../imagenes/team-01.jpg");
+  margin: auto;
+  transition: 0.5s ease-in;
+  position: relative;
+}
+#team .card01:hover .text {
+  transform: translateY(-15px);
+  opacity: 1;
+}
+#team .card01 .fondoazul {
+  background: #004a99;
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  margin: auto;
+  transition: 0.2s ease-in;
+  opacity: 0;
+}
+#team .card01 .fondoazul:hover {
+  opacity: 0.6;
+}
+#team .card01 .text {
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 115px;
+  opacity: 0;
+  transition: 0.2s ease-in;
+  text-align: center;
+}
+#team .card01 .text h1 {
+  font-size: 110%;
+  margin: auto;
+}
+#team .card01 .text h2 {
+  font-weight: 400;
+  font-size: 70%;
+}
+#team .card01 .text .tredes {
+  padding-top: 5px;
+  text-align: center;
+}
+#team .card01 .text .tredes i:hover {
+  color: #007bff;
+  cursor: pointer;
+  opacity: 1;
+}
+#team .card02 {
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  background: url("../imagenes/team-02.jpg");
+  margin: 15px auto 0px auto;
+  transition: 0.5s ease-in;
+  position: relative;
+}
+#team .card02:hover .text {
+  transform: translateY(-15px);
+  opacity: 1;
+}
+#team .card02 .fondoazul {
+  background: #004a99;
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  margin: auto;
+  transition: 0.2s ease-in;
+  opacity: 0;
+}
+#team .card02 .fondoazul:hover {
+  opacity: 0.6;
+}
+#team .card02 .text {
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 115px;
+  opacity: 0;
+  transition: 0.2s ease-in;
+  text-align: center;
+}
+#team .card02 .text h1 {
+  font-size: 110%;
+  margin: auto;
+}
+#team .card02 .text h2 {
+  font-weight: 400;
+  font-size: 70%;
+}
+#team .card02 .text .tredes {
+  padding-top: 5px;
+  text-align: center;
+}
+#team .card02 .text .tredes i:hover {
+  color: #007bff;
+  cursor: pointer;
+  opacity: 1;
+}
+#team .card03 {
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  background: url("../imagenes/team-03.jpg");
+  margin: 15px auto 0px auto;
+  transition: 0.5s ease-in;
+  position: relative;
+}
+#team .card03:hover .text {
+  transform: translateY(-15px);
+  opacity: 1;
+}
+#team .card03 .fondoazul {
+  background: #004a99;
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  margin: auto;
+  transition: 0.2s ease-in;
+  opacity: 0;
+}
+#team .card03 .fondoazul:hover {
+  opacity: 0.6;
+}
+#team .card03 .text {
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 115px;
+  opacity: 0;
+  transition: 0.2s ease-in;
+  text-align: center;
+}
+#team .card03 .text h1 {
+  font-size: 110%;
+  margin: auto;
+}
+#team .card03 .text h2 {
+  font-weight: 400;
+  font-size: 70%;
+}
+#team .card03 .text .tredes {
+  padding-top: 5px;
+  text-align: center;
+}
+#team .card03 .text .tredes i:hover {
+  color: #007bff;
+  cursor: pointer;
+  opacity: 1;
+}
+#team .card04 {
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  background: url("../imagenes/team-04.jpg");
+  margin: 15px auto 0px auto;
+  transition: 0.5s ease-in;
+  position: relative;
+}
+#team .card04:hover .text {
+  transform: translateY(-15px);
+  opacity: 1;
+}
+#team .card04 .fondoazul {
+  background: #004a99;
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  margin: auto;
+  transition: 0.2s ease-in;
+  opacity: 0;
+}
+#team .card04 .fondoazul:hover {
+  opacity: 0.6;
+}
+#team .card04 .text {
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 115px;
+  opacity: 0;
+  transition: 0.2s ease-in;
+  text-align: center;
+}
+#team .card04 .text h1 {
+  font-size: 110%;
+  margin: auto;
+}
+#team .card04 .text h2 {
+  font-weight: 400;
+  font-size: 70%;
+}
+#team .card04 .text .tredes {
+  padding-top: 5px;
+  text-align: center;
+}
+#team .card04 .text .tredes i:hover {
+  color: #007bff;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=all.css.map */
+=======
   color: #444444;
 }
 
@@ -878,3 +1119,4 @@ body h4 {
 }
 
 /*# sourceMappingURL=estilo.css.map */
+
