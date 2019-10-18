@@ -1,0 +1,102 @@
+#portfolio {
+    .filtros {
+        ul {
+            flex-wrap: nowrap;
+            padding: 0 ;
+            justify-content: space-around;
+
+            li{
+                border-radius: 50px;
+                background-color: $fondo_claro;
+                font-size: 12px;
+                color: $acentos;
+                padding: 6px 20px;
+                margin: 15px 15px 5px 0; 
+                &:hover{
+                    background-color: $acentos;
+                    color: white;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:first-child {
+                    background-color: $acentos;
+                    color: white;
+                }
+            }
+        } 
+    }
+
+
+    .portfolio-content {
+        .portfolio-item{
+            position: relative;
+            border-radius: 7px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            height: 250px;
+
+            img {
+                width: 100%;
+                height:100%;
+                object-fit: cover;
+
+            }
+
+            .portfolio-item-hover {
+                display:none;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                color: white;
+                background-color: $fondo_overlay;
+               
+                h4 {
+                    color: white;
+                    margin: 0;
+                }
+            }
+
+            &:hover > .portfolio-item-hover {
+                display: flex;
+            }
+
+        }
+    }
+}
+
+@include desktop  {
+    #portfolio {
+
+        .filtros {
+            
+            ul {
+                justify-content: center;
+            }
+        }
+
+        .portfolio-content {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+
+            .contenedor-item {
+                padding: 0 15px;
+                max-width: 33.333333%;
+                box-sizing: border-box;
+                margin-bottom: 30px;
+
+                .portfolio-item {
+                    box-sizing: border-box;
+                    margin: 0;
+                } 
+    
+            }
+        }
+
+
+    }
+}  
