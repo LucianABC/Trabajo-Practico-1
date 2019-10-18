@@ -39,6 +39,9 @@
     padding-top: 18px;
     background: $fondo_overlay;
     transition: 0.4s;
+    overflow-y: auto;
+        
+
 
     a{
         color: white;
@@ -46,16 +49,19 @@
         display: block;
         position: relative;
         font-weight: 500;
-    }
+    } 
 
     ul{
         margin: 0;    
         padding: 0; 
+        position: relative;
+        
     }
 
     li {
         width: 240px;
         height: 34px;
+        height: auto;
     }
 
     label {
@@ -65,7 +71,9 @@
     
 .desplegable {
     display: none;
+    margin-left: 25px;
 }
+
 .up {
     display: none;
 }
@@ -84,6 +92,7 @@
 
 .desplegable2 {
     display: none;
+    margin-left: 50px;
 }
 .up {
     display: none;

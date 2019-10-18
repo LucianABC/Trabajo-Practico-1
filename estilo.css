@@ -161,6 +161,7 @@ body h4 {
   padding-top: 18px;
   background: rgba(19, 39, 57, 0.8);
   transition: 0.4s;
+  overflow-y: auto;
 }
 .navmenu-mobile a {
   color: white;
@@ -172,16 +173,19 @@ body h4 {
 .navmenu-mobile ul {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 .navmenu-mobile li {
   width: 240px;
   height: 34px;
+  height: auto;
 }
 .navmenu-mobile label {
   padding: 10px 20px;
 }
 .navmenu-mobile .desplegable {
   display: none;
+  margin-left: 25px;
 }
 .navmenu-mobile .up {
   display: none;
@@ -200,6 +204,7 @@ body h4 {
 }
 .navmenu-mobile .desplegable2 {
   display: none;
+  margin-left: 50px;
 }
 .navmenu-mobile .up {
   display: none;
