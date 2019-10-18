@@ -1,0 +1,106 @@
+#why-us {
+    background-color: $fondo;
+
+    h3 {
+        color: white;
+    }
+    a {
+        color: white;
+    }
+    p{
+        font-size: 15px;
+        margin: auto;
+    }
+    .card-container {
+        margin-bottom: 24px;
+        
+        .card {
+            background-color: $fondo_card;
+            border-radius: 15px;
+            margin: 0;
+            padding: 15px;
+
+            &:hover {
+                background-color: $fondo_cardhover;
+            }
+
+            
+
+            h5 {
+                font-size: 22px;
+                font-weight: 600;
+                margin: 0 0 12px;
+            }
+
+            .fa {
+                font-size: 48px;
+                padding-top: 15px;
+                color: #bfddfe;
+
+            }
+            .cardbody {
+                padding: 15px;
+
+                p {
+                    padding-bottom: 30px;
+                }
+
+                a{
+                    color: #fff;
+                    font-weight: 600;
+                    display: inline-block;
+                    transition: 0.3s ease-in-out;
+                    border-bottom: #00458f solid 2px;
+
+                    &:hover {
+                        border-bottom: white solid 2px;
+                    }
+                }
+
+            } 
+        }
+    }
+    .counters {
+        justify-content: space-around;
+        div{
+            position: relative;
+            max-width: 50%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin: 15px;
+        }
+        span {
+            display: block;
+            font-size: 48px;
+            font-weight: bold;
+        }
+    }
+}
+
+@include desktop {
+    #why-us {
+            
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            box-sizing: border-box;
+            margin-right: -15px;
+            margin-left: -15px;
+        
+            .card-container {
+                box-sizing: border-box;
+                max-width: 33.333333%;
+                padding: 0 15px;
+                margin-bottom: 24px;
+            }
+            
+        .card {
+            box-sizing: border-box;
+            margin:0 15px;
+            padding: 15px 0; 
+        }
+        }
+
+    }
+}  
