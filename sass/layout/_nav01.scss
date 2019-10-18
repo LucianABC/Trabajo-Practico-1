@@ -161,28 +161,8 @@
  
 #closemenu {
     display: none;
-    
-    &:checked~.navmenu-mobile {
-        left: -260px;
-    }
-
-    &:checked~.navmenu-mobile-overlay{
-        display: none;
-    }
-
-    &:checked~.closemenuIcon {
-        display: none;
-
-    }
-
-    &:checked .togglemenu{
-        display: block;
-
-    }
-
-    
-}
- 
+        
+} 
 /*-----dropdown------*/
 
 

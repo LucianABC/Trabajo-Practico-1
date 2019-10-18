@@ -266,18 +266,6 @@ body h4 {
 #closemenu {
   display: none;
 }
-#closemenu:checked ~ .navmenu-mobile {
-  left: -260px;
-}
-#closemenu:checked ~ .navmenu-mobile-overlay {
-  display: none;
-}
-#closemenu:checked ~ .closemenuIcon {
-  display: none;
-}
-#closemenu:checked .togglemenu {
-  display: block;
-}
 
 /*-----dropdown------*/
 /*-------desktop only-------------------------*/
