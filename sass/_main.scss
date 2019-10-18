@@ -1,11 +1,13 @@
 /* -------------------------------------------------------- */
+@import 'sass/all';
+
 body {
     font-family: $fuentegeneral;
-    color: white;
-    font-size: 16px;
     background-color: $fondo_oscuro; 
     margin: 0;
     width: 100%;
+    color: white;
+    font-size: 16px;
     line-height: 1.5;
     a {
     text-decoration: none;
