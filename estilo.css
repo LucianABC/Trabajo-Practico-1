@@ -246,7 +246,7 @@ body h4 {
 #openmenu:checked ~ .closemenuIcon {
   display: block;
 }
-#openmenu:checked*.togglemenu {
+#openmenu:checked ~ .togglemenu {
   display: none;
 }
 
@@ -275,7 +275,7 @@ body h4 {
 #closemenu:checked ~ .closemenuIcon {
   display: none;
 }
-#closemenu:checked *.togglemenu {
+#closemenu:checked .togglemenu {
   display: block;
 }
 
