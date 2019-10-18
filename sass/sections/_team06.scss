@@ -1,7 +1,8 @@
 #team{
     width: 100vw;
-    height: 1000px;
+    height: auto;
     background: white;
+    padding-bottom:50px;
     header{
         padding: 50px 0px 50px 0px;
         h1{
@@ -32,7 +33,7 @@
         transition: 0.5s ease-in;
         position: relative;
         &:hover .text{
-            transform: translateY(15px);
+            transform: translateY(-15px);
             opacity:1;
         }
         .fondoazul{
@@ -76,15 +77,173 @@
             }
             
         }
-    
-        
-        
-            
-
-
-            
-            
-        
-        
     }
+    .card02{
+        border-radius: 50%;
+        width: 330px;
+        height: 330px;
+        background: url("../imagenes/team-02.jpg");
+        margin:15px auto 0px auto;
+        transition: 0.5s ease-in;
+        position: relative;
+        &:hover .text{
+            transform: translateY(-15px);
+            opacity:1;
+        }
+        .fondoazul{
+            background: $fondo;
+            border-radius: 50%;
+            width: 330px;
+            height: 330px;
+            margin:auto;
+            transition: 0.2s ease-in;
+            opacity:0;
+            &:hover{
+                opacity:0.6;
+            }
+        }
+        .text{
+            color:white;
+            position:absolute;
+            top: 130px;
+            left:115px;
+            opacity:0;
+            transition:0.2s ease-in;    
+            text-align: center;
+                h1{
+                    font-size: 110%;
+                    margin:auto; 
+                }
+                h2{
+                    font-weight: 400;
+                    font-size: 70%;
+                }
+            .tredes{
+                padding-top:5px;
+                text-align: center;
+                i{
+                    &:hover{
+                        color:$acentos;
+                        cursor:pointer;
+                        opacity: 1;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .card03{
+        border-radius: 50%;
+        width: 330px;
+        height: 330px;
+        background: url("../imagenes/team-03.jpg");
+        margin:15px auto 0px auto;
+        transition: 0.5s ease-in;
+        position: relative;
+        &:hover .text{
+            transform: translateY(-15px);
+            opacity:1;
+        }
+        .fondoazul{
+            background: $fondo;
+            border-radius: 50%;
+            width: 330px;
+            height: 330px;
+            margin:auto;
+            transition: 0.2s ease-in;
+            opacity:0;
+            &:hover{
+                opacity:0.6;
+            }
+        }
+        .text{
+            color:white;
+            position:absolute;
+            top: 130px;
+            left:115px;
+            opacity:0;
+            transition:0.2s ease-in;    
+            text-align: center;
+                h1{
+                    font-size: 110%;
+                    margin:auto; 
+                }
+                h2{
+                    font-weight: 400;
+                    font-size: 70%;
+                }
+            .tredes{
+                padding-top:5px;
+                text-align: center;
+                i{
+                    &:hover{
+                        color:$acentos;
+                        cursor:pointer;
+                        opacity: 1;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .card04{
+        border-radius: 50%;
+        width: 330px;
+        height: 330px;
+        background: url("../imagenes/team-04.jpg");
+        margin:15px auto 0px auto;
+        transition: 0.5s ease-in;
+        position: relative;
+        &:hover .text{
+            transform: translateY(-15px);
+            opacity:1;
+        }
+        .fondoazul{
+            background: $fondo;
+            border-radius: 50%;
+            width: 330px;
+            height: 330px;
+            margin:auto;
+            transition: 0.2s ease-in;
+            opacity:0;
+            &:hover{
+                opacity:0.6;
+            }
+        }
+        .text{
+            color:white;
+            position:absolute;
+            top: 130px;
+            left:115px;
+            opacity:0;
+            transition:0.2s ease-in;    
+            text-align: center;
+                h1{
+                    font-size: 110%;
+                    margin:auto; 
+                }
+                h2{
+                    font-weight: 400;
+                    font-size: 70%;
+                }
+            .tredes{
+                padding-top:5px;
+                text-align: center;
+                i{
+                    &:hover{
+                        color:$acentos;
+                        cursor:pointer;
+                        opacity: 1;
+                    }
+                }
+            }
+            
+        }
+    }
+
+
+
+
 }
