@@ -77,6 +77,32 @@
 @include desktop {
     #home{
     
-        flex-direction: row;
+        flex-direction: row-reverse;
+        padding-top:50px;
+        padding-bottom: 50px;
+        img{
+            width:40vw;
+            align-self: center
+        }
+        .textoybotones{
+            flex-direction: column;
+            
+            h1{
+                text-align: left;
+                font-size: 48px;
+                margin-bottom: 0px;
+            }
+            .botones{
+                display: flex;
+                flex-direction: row;
+                
+                button{
+                    font-size: 15px;
+                    margin-right:25px;
+                    margin-top:0px;
+                }
+            }
+        }
+
     }
 }
