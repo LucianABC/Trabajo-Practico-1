@@ -40,8 +40,6 @@
     background: $fondo_overlay;
     transition: 0.4s;
     overflow-y: auto;
-        
-
 
     a{
         color: white;
@@ -72,55 +70,56 @@
         }
     }
 
-                
-
     .dropdown-button {
         width: 100%;
     }
-    
-.desplegable {
-    display: none;
-    margin-left: 25px;
-}
- 
-.up {
-    display: none;
-}
-
-#check {
-    display: none;
-    &:checked ~ .desplegable {
-        display: block;
-    }
-    &:checked ~ label > .down  {
+         
+    .up {
         display: none;
     }
-    &:checked ~ label > .up {
-        display: inline-flex;
-    }
-} 
 
-.desplegable2 {
-    display: none;
-    margin-left: 50px;
-
-    li {
-        margin: 15px;
-    }
-}
-#check2 {
-    display: none;
-    &:checked ~ .desplegable2 {
-        display: block;
-    }
-    &:checked ~ label > .down  {
+    #check {
         display: none;
+        &:checked ~ .desplegable {
+            display: block;
+        }
+        &:checked ~ label > .down  {
+            display: none;
+        }
+        &:checked ~ label > .up {
+            display: inline-flex;
+        }
+    } 
+
+    .desplegable {
+        display: none;
+        margin-left: 25px;
+
+        
+        .desplegable2 {
+            display: none;
+            margin-left: 50px;
+
+            li {
+                margin: 15px;
+            }
+        }
+
+        #check2 {
+            display: none;
+            &:checked ~ .desplegable2 {
+                display: block;
+            }
+            &:checked ~ label > .down  {
+                display: none;
+            }
+            &:checked ~ label > .up {
+                display: inline-flex;
+            }
+        }
     }
-    &:checked ~ label > .up {
-        display: inline-flex;
-    }
+   
 }
-    }
 
 
 
