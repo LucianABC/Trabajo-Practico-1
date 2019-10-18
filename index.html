@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="./estilo.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,8 +32,10 @@
                         <img src="./imagenes/logo-tp.png" class="img" alt="Logo ADA">
                     </a>
                 </div>
+
  
                 <nav class="navmenu-desktop right fullcentrado">
+
                     <ul>
                         <li>
                             <a href="#home">Home</a>
@@ -110,93 +113,120 @@
                 </nav>    
             </div>
         </header>
-<!-------------------NAV MENU MOBILE--------------------------->
-        <div class="navmenu-mobile-overlay"></div>
-        <nav class="navmenu-mobile">
-            <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
+<!----------------------CONTENIDO----------------------------->
 
-                <li>
-                    <a  href="#about-us">About Us</a>
-                </li>
-        
-                <li>
-                    <a  href="#services">Services</a>                  
-                </li>
+<div class="navmenu-mobile-overlay"></div>
+<nav class="navmenu-mobile">
+    <ul>
+        <li>
+            <a href="#home">Home</a>
+        </li>
 
-                <li>
-                    <a  href="#portfolio">Portfolio</a>
-                </li>
+        <li>
+            <a  href="#about-us">About Us</a>
+        </li>
 
-                <li>
-                    <a  href="#team"> Team</a>
-                </li>
+        <li>
+            <a  href="#services">Services</a>                  
+        </li>
 
-                <li class="dropdown-boton">
-                    <input type= checkbox id="check">
-                    <label for="check">
-                        Dropdown    
+        <li>
+            <a  href="#portfolio">Portfolio</a>
+        </li>
+
+        <li>
+            <a  href="#team"> Team</a>
+        </li>
+
+        <li class="dropdown-boton">
+            <input type= checkbox id="check">
+            <label for="check">
+                Dropdown    
+                <i class="fa fa-angle-down down" aria-hidden="true"></i>
+                <i class="fa fa-angle-up up" aria-hidden="true"></i>
+
+            </label>
+
+            
+    
+            <ul class="desplegable">
+                <li>
+                    <a href="#">
+                        Item 1
+                    </a>
+                </li>
+                <li> 
+                    <input type= checkbox id="check2">
+                    <label for="check2">
+                        Item 2    
                         <i class="fa fa-angle-down down" aria-hidden="true"></i>
                         <i class="fa fa-angle-up up" aria-hidden="true"></i>
-
                     </label>
         
                     
             
-                    <ul class="desplegable">
+                    <ul class="desplegable2">
                         <li>
-                            <a href="#">
-                                Item 1
-                            </a>
+                            SubItem1
                         </li>
-                        <li> 
-                            <input type= checkbox id="check2">
-                            <label for="check2">
-                                Item 2    
-                                <i class="fa fa-angle-down down" aria-hidden="true"></i>
-                                <i class="fa fa-angle-up up" aria-hidden="true"></i>
-                            </label>
-                
-                            
+                                
+                        <li>
+                            SubItem2
+                        </li>
+                                    
+                        <li>
+                            SubItem3
+                        </li>
+                    </ul>
+                </li>
                     
-                            <ul class="desplegable2">
-                                <li>
-                                    SubItem1
-                                </li>
-                                        
-                                <li>
-                                    SubItem2
-                                </li>
-                                            
-                                <li>
-                                    SubItem3
-                                </li>
-                            </ul>
-                        </li>
-                            
-                        <li>
-                            <a href="#">
-                                Item 3
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="#">
-                                Item 4
-                            </a>
-                        </li>
-                    </ul>                    
-                </li>
-
                 <li>
-                    <a href="contact-us">Contact Us</a>    
+                    <a href="#">
+                        Item 3
+                    </a>
                 </li>
-            </ul>
-        </nav>
+                
+                <li>
+                    <a href="#">
+                        Item 4
+                    </a>
+                </li>
+            </ul>                    
+        </li>
+
+        <li>
+            <a href="contact-us">Contact Us</a>    
+        </li>
+    </ul>
+</nav>
 
 <!-------------------FIN NAV MENU MOBILE--------------------------->        
+
+<!-----------------------HOME--------------------------------->
+<section class="seccion" id="home">
+    <div class="container">
+        <img src="imagenes/intro-img.svg" alt="home">
+        <div class="textoybotones">
+            <h1 class="s02-1">We provide <div class="solutions"> solutions </div> for your business!<h1>
+            <div class="botones">
+                <div class="button-get-started">
+                <button type="button">Get Started</button>
+                </div>
+                <div class="button-our-services">
+                <button type="button">Our Services</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------->       
+        <section class="seccion fondoblanco" id="about-us">
+        </section>
+                
+        <section class="seccion fondoceleste" id="services">
+
+        </section>        
+<!-------------------NAV MENU MOBILE--------------------------->
         <section class="allcontent">
 <!----------------------HOME----------------------------->
             <section class="seccion" id="home">
