@@ -1,10 +1,12 @@
 #home {
-    background: $fondo_oscuro;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: auto;
-    padding-bottom: 30px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    box-sizing: border-box;
+
     img{
         padding: 50px 50px 0px 50px;
         height: auto;
@@ -76,7 +78,6 @@
 
 @include desktop {
     #home{
-    
         flex-direction: row-reverse;
         padding-top:50px;
         padding-bottom: 50px;
@@ -103,6 +104,7 @@
                 }
             }
         }
+        
 
     }
 }

@@ -369,12 +369,13 @@ body h4 {
 }
 /* ver que onda esto, no tengo ni idea qué estoy haciendo (?) */
 #home {
-  background: #00428a;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: auto;
-  padding-bottom: 30px;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  box-sizing: border-box;
 }
 #home img {
   padding: 50px 50px 0px 50px;
@@ -695,10 +696,14 @@ body h4 {
   }
 }
 #team {
-  width: 100vw;
-  height: auto;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  box-sizing: border-box;
   background: white;
-  padding-bottom: 50px;
 }
 #team header {
   padding: 50px 0px 50px 0px;
@@ -924,6 +929,20 @@ body h4 {
   opacity: 1;
 }
 
+@media (min-width: 992px) {
+  #team .cards {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    transform: scale(0.6);
+    justify-content: space-around;
+  }
+  #team .cards .text {
+    font-size: 30px;
+    left: 59px;
+    top: 101px;
+  }
+}
 #why-us {
   background-color: #004a99;
 }
@@ -1102,4 +1121,4 @@ body h4 {
   }
 }
 
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=all.css.map */

@@ -1,8 +1,13 @@
 #team{
-    width: 100vw;
-    height: auto;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    box-sizing: border-box;
     background: white;
-    padding-bottom:50px;
+    
     header{
         padding: 50px 0px 50px 0px;
         h1{
@@ -239,11 +244,28 @@
                     }
                 }
             }
-            
         }
     }
+}
 
+@include desktop {
+    #team{
+        
+        .cards{
+            width: auto;
+            display:flex;
+            flex-direction: row;
+            transform: scale(0.6);
+            justify-content: space-around;
+            .text{
+                font-size: 30px;
+                left:59px;
+                top:101px;
+            }
 
-
-
+            
+            
+        }
+        
+    }
 }
