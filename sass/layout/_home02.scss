@@ -8,7 +8,7 @@
     box-sizing: border-box;
 
     img{
-        padding: 50px 50px 0px 50px;
+        padding: 50px 0px 0px 0px;
         height: auto;
         width: 80vw;
     }
@@ -78,15 +78,23 @@
 
 @include desktop {
     #home{
+        display:flex;
         flex-direction: row-reverse;
         padding-top:50px;
         padding-bottom: 50px;
+        margin-top: 80px;
+        margin-bottom: 90px;
+        padding-right: 80px;
+
         img{
+            margin:0;
             width:40vw;
             align-self: center
         }
         .textoybotones{
             flex-direction: column;
+            width:465px;
+            margin:0px;
             
             h1{
                 text-align: left;
