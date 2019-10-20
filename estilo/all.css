@@ -644,6 +644,16 @@ body h4 {
   line-height: 1.6;
 }
 
+@media (min-width: 992px) {
+  #services .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #services .cards .card {
+    width: 30vw;
+  }
+}
 #portfolio .filtros ul {
   flex-wrap: nowrap;
   padding: 0;
