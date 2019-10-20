@@ -1114,6 +1114,56 @@ body h4 {
     padding: 15px 0;
   }
 }
+#our-clients {
+  background: #ecf5ff;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#our-clients header {
+  width: 90vw;
+  padding-bottom: 50px;
+}
+#our-clients header h1 {
+  color: #283d50;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  margin: 0px 0px 15px 0px;
+}
+#our-clients header h2 {
+  color: #556877;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+}
+#our-clients .clientes {
+  background: white;
+  width: 90vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #d6eaff;
+}
+#our-clients .clientes:hover img {
+  transform: scale(1.2);
+}
+#our-clients .clientes img {
+  width: 50vw;
+  align-self: center;
+  transition: 0.3s ease-in;
+}
+
 #contact-us {
   background: white;
   width: 100%;
