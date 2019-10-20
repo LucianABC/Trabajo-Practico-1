@@ -1,24 +1,128 @@
-/* -------------------------------------------------------- */
 
 
 body {
     font-family: $fuentegeneral;
-    
     background-color: $fondo_oscuro; 
-    margin:0;
+    margin: 0;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+
+
 
     a {
     text-decoration: none;
     color: $acentos;
     }
+    ul{
+        list-style: none;
+    }
+
+    h3{
+        font-size: 36px;
+        font-family: $fuentetitulos;
+        color: $colortitulos;
+        font-weight: 500;
+        margin: 0 0 20px 0;
+    }
+
+    h4 {
+        font-family: $fuentetitulos;
+        color: $colorsubtitulos;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 0 20px 0;
+
+    }
 }
  
 .fondoblanco {
     background-color: white;
-    color: $fondo_oscuro;
+    color: $colortitulos;
 }
 
 .fondoceleste {
     background-color: $fondo_claro;
     color: $fondo_oscuro; 
+ 
+}
+
+.roundbuttons {
+    border-radius: 50%;
+    background-color: $acentos;
+    color: white;
+    padding: 5px;
+    margin: 4px;
+    text-align: center;
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+} 
+
+.button {
+    background-color: $acentos;
+    color: white;
+    border: 0;
+    padding: 7px 0;
+    text-align: center;
+}
+
+
+.flex {
+    display: flex;
+}
+.columna {
+    flex-direction: column;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.fullcentrado {
+    justify-content: center;
+    align-items: center;
+}
+.left {
+   float: left;
+}
+
+.right{
+    float: right;
+}
+  
+
+.marginbottom {
+    margin-bottom: 30px;
+}
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    box-sizing: border-box;
+}
+
+
+.seccion {
+    text-align: center;
+    padding: 60px 0;
+
+    header {
+        display: block;
+        p{
+            
+            margin: auto;
+            padding-bottom: 60px;
+
+            @include desktop {
+                width: 50%;   
+            }
+        }
+    }
 }
