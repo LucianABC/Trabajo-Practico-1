@@ -86,3 +86,24 @@
     }
     
 }
+
+@include desktop {
+    #contactus{
+        .mapa{
+            display:flex;
+            align-items: left;
+            
+            iframe{
+                margin:auto;
+                width:57vw;
+                height: 220px;
+            }
+        }
+        .datos{
+            display:flex;
+            flex-direction: row;
+
+
+        }
+    }
+}

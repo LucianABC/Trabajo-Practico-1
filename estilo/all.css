@@ -1260,6 +1260,21 @@ body h4 {
   cursor: pointer;
 }
 
+@media (min-width: 992px) {
+  #contactus .mapa {
+    display: flex;
+    align-items: left;
+  }
+  #contactus .mapa iframe {
+    margin: auto;
+    width: 57vw;
+    height: 220px;
+  }
+  #contactus .datos {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .footer .footertop {
   padding-top: 30px;
   padding-bottom: 30px;
