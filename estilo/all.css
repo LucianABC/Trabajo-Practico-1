@@ -575,20 +575,20 @@ body h4 {
   width: 100%;
   height: auto;
 }
-#services .sub04 {
+#services header {
   text-align: center;
   padding: 50px 5px 50px 5px;
   display: inline-block;
   width: 87vw;
 }
-#services .sub04 h1 {
+#services header h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 233%;
   color: #283d50;
   margin: 0px;
 }
-#services .sub04 h2 {
+#services header h2 {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -596,7 +596,7 @@ body h4 {
   width: 77vw;
   color: #556877;
 }
-#services .t01 {
+#services .card {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
@@ -611,14 +611,14 @@ body h4 {
   margin-bottom: 40px;
   color: #283d50;
 }
-#services .t01:hover {
+#services .card:hover {
   cursor: text;
   transform: translateY(-5px);
 }
-#services .t01:hover h1 {
+#services .card:hover h1 {
   color: #007bff;
 }
-#services .t01 h1 {
+#services .card h1 {
   font-family: "Montserrat", sans-serif;
   flex-direction: column;
   font-size: 130%;
@@ -626,17 +626,17 @@ body h4 {
   transition: all 0.5s ease-out;
   margin-bottom: 5px;
 }
-#services .t01 .t01sub {
+#services .card .subtexto {
   display: flex;
   flex-direction: row;
 }
-#services .t01 .t01sub span {
-  color: red;
+#services .card .subtexto .iconify {
   font-size: 400%;
   position: absolute;
   left: -23px;
+  top: 42px;
 }
-#services .t01 .t01sub h2 {
+#services .card .subtexto h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 90%;

@@ -4,7 +4,7 @@
     background: $fondo_claro;
     width: 100%;
     height: auto;
-    .sub04{
+    header{
         text-align: center;
         padding: 50px 5px 50px 5px;
         display: inline-block;
@@ -26,7 +26,7 @@
             color: #556877;
         }
     }
-    .t01{
+    .card{
         display: flex;
         flex-direction: column;
         margin-left: 20px;
@@ -55,14 +55,15 @@
             transition: all 0.5s ease-out;
             margin-bottom: 5px;
         }
-        .t01sub{
+        .subtexto{
             display: flex;
             flex-direction: row;
-            span{
-                color:red;
+            .iconify{
+                
                 font-size: 400%;
                 position: absolute;
                 left:-23px;
+                top:42px;
             }
             h2{
                 font-family: $fuentegeneral;
