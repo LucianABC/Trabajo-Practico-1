@@ -2,18 +2,43 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="estilo/all.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="./imagenes/favicon.png" rel="icon">
+        <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+
+        <title>Wayne Enterprises</title>
+
+
     </head>
     <body>
-        <header id="header" class="fijotop">
-            <div class="container" >
-                <div class="logo float-left">
+           
+        <input type="checkbox"  id="openmenu">
+        <label for="openmenu" class="togglemenu right">
+            <i class="fa fa-bars"></i>
+       </label>
+        
+       
+        <label for="openmenu" class="closemenuIcon">
+            <i class="fa fa-times"></i>
+        </label>
+        
+
+        <header id="nav" class="fondoblanco flex ">
+            <div class="container fondoblanco">
+                <div class="logo left">
                     <a href="#home">
-                        <img src="./imagenes/logo-tp.png" alt="Logo ADA">
+                        <img src="./imagenes/logo-tp.png" class="img" alt="Logo ADA">
                     </a>
                 </div>
-                <nav class="navbar float-right">
+
+
+ 
+                <nav class="navmenu-desktop right fullcentrado">
                     <ul>
                         <li>
                             <a href="#home">Home</a>
@@ -34,30 +59,40 @@
                         <li>
                             <a  href="#team"> Team</a>
                         </li>
+                        <li class="dropdown">
+                            <a  href="#home">
+                                Drop Down 
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
 
-                        <li class="desplegable">
-                            <a  href="#home">Dropdown</a>
-                            <ul class="desplegable">
+
+                            <ul class=" desplegable1 dropdown-style">
                                 <li>
                                     <a href="#">
                                         Item 1
                                     </a>
                                 </li>
-                                <li>
+                                <li class="dropdown2">
                                     <a href="#">
                                         Item 2
                                     </a>
-                                    <ul>
+                                    <ul class="desplegable2 dropdown-style">
                                         <li>
-                                            SubItem1
+                                            <a>
+                                                SubItem1
+                                            </a>
                                         </li>
                                         
                                         <li>
-                                            SubItem2
+                                            <a>
+                                                SubItem2
+                                            </a>
                                         </li>
                                             
                                         <li>
-                                            SubItem3
+                                            <a>
+                                                SubItem3
+                                            </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -81,130 +116,943 @@
                 </nav>    
             </div>
         </header>
-<!----------------------CONTENIDO----------------------------->
-        <section class="seccion" id="home">
-        </section>
-        
-        <section class="seccion fondoblanco" id="about-us">
-        </section>
-        
-        <section class="seccion fondoceleste" id="services">
-        </section>
-            
-        <section class="seccion fondoblanco" id="portfolio">
-        </section>
-                 
-        <section class="seccion fondoceleste" id="testimonials">
-        </section>
+<!----------------------NAV MENU MOBILE----------------------------->
 
-        <section class="seccion fondoblanco" id="team">
-        </section>
-<!---------------------OUR-CLIENTS------------------------------------------------------------------------>        
-        <section class="seccion fondoceleste" id="our-clients">
+<div class="navmenu-mobile-overlay"></div>
+<nav class="navmenu-mobile">
+    <ul>
+        <li>
+            <a href="#home">Home</a>
+        </li>
 
-            <header>
-                <h1>Our Clients</h1>
-                <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</h2>
-            </header>
+        <li>
+            <a  href="#about-us">About Us</a>
+        </li>
 
-            <section class="clientes">
-                    <img src="imagenes/clients/client-1.png" alt="cliente">
-            </section>
+        <li>
+            <a  href="#services">Services</a>                  
+        </li>
 
-            <section class="clientes">
-                    <img src="imagenes/clients/client-2.png" alt="cliente">
-            </section>
+        <li>
+            <a  href="#portfolio">Portfolio</a>
+        </li>
 
-            <section class="clientes">
-                    <img src="imagenes/clients/client-3.png" alt="cliente">
-            </section>
+        <li>
+            <a  href="#team"> Team</a>
+        </li>
 
-            <section class="clientes">
-                    <img src="imagenes/clients/client-4.png" alt="cliente">
-            </section>
+        <li class="dropdown-boton">
+            <input type= checkbox id="check">
+            <label for="check">
+                Dropdown    
+                <i class="fa fa-angle-down down" aria-hidden="true"></i>
+                <i class="fa fa-angle-up up" aria-hidden="true"></i>
 
-            <section class="clientes">
-                    <img src="imagenes/clients/client-5.png" alt="cliente">
-            </section>
-
-            <section class="clientes">
-                    <img src="imagenes/clients/client-6.png" alt="cliente">
-            </section>
-
-            <section class="clientes">
-                    <img src="imagenes/clients/client-7.png" alt="cliente">
-            </section>
-
-            <section class="clientes">
-                    <img src="imagenes/clients/client-8.png" alt="cliente">
-            </section>
-
-        </section>
-<!---------------------------------------------------------------------------------------------------------->        
-        <section class="seccion fondoblanco" id="contact-us">
-        </section>
-<!----------------------------FOOTER----------------------------->        
-
-        <footer class="footer">
-            <div class="footertop"> 
-                <div class="container"
-                    <div>
-                        <h2>WAYNE</h2>
-                        <p>Fundada por los antepasados ​​mercantes de la familia Wayne en el siglo XVII como una casa de comerciantes, se encuentra entre las compañías más antiguas del Universo DC. La compañía comenzó como una docena de negocios iniciados por los hermanos Judge Solomon Wayne y Joshua Wayne. Con los ingresos generados, el juez Wayne construyó esencialmente Gotham City mediante la contratación de Cyrus Pinkney.2​
-
-                                El hijo y heredero del juez Wayne, Alan Wayne, la convirtió oficialmente en una empresa corporativa en el siglo XIX. Alan Wayne, quien fue el tatarabuelo de Bruce Wayne, erigió a Wayne Shipping, Wayne Chemical y Wayne Manufacturing. Todas estas compañías fueron energizadas por la Revolución Industrial del mundo; se crearon y diversificaron más ramas, mientras que otras disminuyeron y se descartaron. A lo largo de los años, se ha desarrollado desde una casa de comerciantes a una gran empresa multinacional conglomerada en el Universo DC; superando a LexCorp, Empresas Stagg y Aeronaves Ferris.
+            </label>           
+    
+            <ul class="desplegable">
+                <li>
+                    <a href="#">
+                        Item 1
+                    </a>
+                </li>
+                <li> 
+                    <input type= checkbox id="check2">
+                    <label for="check2">
+                        Item 2    
+                        <i class="fa fa-angle-down down" aria-hidden="true"></i>
+                        <i class="fa fa-angle-up up" aria-hidden="true"></i>
+                    </label>
+           
+                    <ul class="desplegable2">
+                        <li>
+                            SubItem1
+                        </li>
                                 
-                                Bajo el control de Patrick y Laura Wayne, Empresas Wayne se convirtió en una "empresa verde" y ambientalmente consciente desde ese momento en adelante.s</p>
-                    </div>
-                    <div>
-                        <ul> 
-                            <h3>Useful Links</h3>
-                            
-                            <li><a>Home</a></li>
-                            <li><a>About us</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Terms of service</a></li>
-                            <li><a>Privacy policy</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>Contact Us</h3>
+                        <li>
+                            SubItem2
+                        </li>
+                                    
+                        <li>
+                            SubItem3
+                        </li>
+                    </ul>
+                </li>
+                    
+                <li>
+                    <a href="#">
+                        Item 3
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        Item 4
+                    </a>
+                </li>
+            </ul>                    
+        </li>
 
-                        <p>A108 Adam Street 
-                        New York, NY 535022
-                        United States 
-                        Phone: +1 5589 55488 55
-                        Email: info@example.com</p>
-                        <div class="socialbuttons">
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <li>
+            <a href="contact-us">Contact Us</a>    
+        </li>
+    </ul>
+</nav>
+
+<!-------------------FIN NAV MENU MOBILE--------------------------->        
+
+<!-----------------------HOME--------------------------------->
+<section class="seccion" id="home">
+    
+    <img src="imagenes/intro-img.svg" alt="home">
+    <div class="textoybotones">
+        <h1 class="s02-1">We provide <div class="solutions"> solutions </div> for your business!<h1>
+        <div class="botones">
+            <div class="button-get-started">
+            <button type="button">Get Started</button>
+            </div>
+            <div class="button-our-services">
+            <button type="button">Our Services</button>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    <!----------------------FIN HOME----------------------------->
+    <!----------------------ABOUT US----------------------------->
+
+            <section class="seccion fondoblanco" id="about-us">
+                <section class="container">
+                    <header> 
+                            <h3>About Us</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                    </header>
+                   
+                    
+                    <section id="about-us-sec1">
+                        <div class= "imgcontainer">
+                            <img src="./imagenes/about-img.svg" alt="gente hablando">
+                        </div>
+                        <div class="about-us-columna">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+
+                            <div class="itemaboutus">
+                                
+                                <div class="icon left flex fullcentrado">
+                                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                </div>
+
+                                <h4> Fusce auctor</h4>
+
+                                <p> massa ac vulputate pulvinar, 
+                                    dolor odio gravida arcu, eu semper lectus metus a leo.
+                                    Donec gravida sed metus et pellentesque.
+                                </p>
+                            </div>
+
+                            <div class="itemaboutus">
+
+                                <div class="icon left flex fullcentrado">
+                                    <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                                </div>
+
+                                <h4> Fusce auctor</h4>
+
+                                <p> massa ac vulputate pulvinar, 
+                                    dolor odio gravida arcu, eu semper lectus metus a leo.
+                                    Donec gravida sed metus et pellentesque.
+                                    
+                                </p>
+                            </div>
+                        
+                            <div class="itemaboutus">
+
+                                <div class="icon left flex fullcentrado"> 
+                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                </div>
+
+                                <h4> Fusce auctor</h4>
+
+                                <p> massa ac vulputate pulvinar, 
+                                    dolor odio gravida arcu, eu semper lectus metus a leo.
+                                    Donec gravida sed metus et pellentesque.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="about-us-sec2">
+                        <div class="imgcontainer">
+                            <img src="./imagenes/about-extra-1.svg" alt="">
+                        </div>
+                        <div class="about-us-columna">
+                            <h4>
+                                Donec gravida sed metus et pellentesque.
+                                Integer ornare condimentum
+                            </h4>
+
+                            <p> 
+                                Ipsum in aspernatur ut possimus sint. 
+                                Quia omnis est occaecati possimus ea. 
+                                Quas molestiae perspiciatis occaecati qui rerum. 
+                                Deleniti quod porro sed quisquam saepe.
+                                Numquam mollitia recusandae non ad at et a.
+                            </p>
+                            <p>
+                                Ad vitae recusandae odit possimus.
+                                Quaerat cum ipsum corrupti. Odit qui asperiores 
+                                ea corporis deserunt veritatis quidem 
+                                expedita perferendis. Qui rerum eligendi
+                                ex doloribus quia sit. Porro rerum eum eum.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section id="about-us-sec3">
+                        <div class="imgcontainer">
+                            <img src="./imagenes/about-extra-2.svg" alt="">
+                        </div>
+                        <div class="about-us-columna">
+
+                            <h4>Neque saepe temporibus repellat ea ipsum et. 
+                                Id vel et quia tempora facere reprehenderit.
+                            </h4>
+
+            
+                            <p>
+                                Delectus alias ut incidunt delectus nam 
+                                placeat in consequatur. Sed cupiditate quia ea quis.
+                                Voluptas nemo qui aut distinctio. Cumque fugit 
+                                earum est quam officiis numquam. Ducimus corporis 
+                                autem at blanditiis beatae incidunt sunt.
+                            </p>
+
+
+                            <p>
+                                Voluptas saepe natus quidem blanditiis.
+                                Non sunt impedit voluptas mollitia beatae.
+                                Qui esse molestias. Laudantium libero nisi
+                                vitae debitis. Dolorem cupiditate est perferendis iusto.
+                            </p>
+
+                            <p>
+                                Eum quia in. Magni quas ipsum a. Quis ex
+                                voluptatem inventore sint quia modi.
+                                Numquam est aut fuga mollitia exercitationem
+                                nam accusantium provident quia.
+                            </p>
+                        </div>
+                    </section>
+                </section>
+            </section>
+    <!----------------------FIN ABOUT US----------------------------->
+    <!----------------------SERVICES----------------------------->
+    
+            <!----------------------SERVICES--------------------->        
+            <section class="seccion fondoceleste" id="services">
+                    <div class="container">
+                    <div class="sub04">
+                        <h1>Services</h1>
+                        <h2>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</h2>
+                    </div>
+
+                    <div class="t01">
+                        <h1>Lorem Ipsum </h1>
+
+                        <div class="t01sub">
+                            <span class="iconify" data-icon="ion-ios-analytics-outline"></span>
+
+                            <h2>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</h2>
+                        </div>
+                        
+                    </div>
+
+                    <div class="t01">
+                        <h1>Dolor Sitema </h1>
+
+                        <div class="t01sub">
+                            <span class="iconify" data-icon="ion-ios-bookmarks-outline" data-inline="false"></span>
+
+                            <h2> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata </h2>
+                        </div>
+                            
+                    </div>
+
+                    <div class="t01">
+                        <h1>Magni Dolores</h1>
+
+                        <div class="t01sub">
+                            <span class="iconify" data-icon="ion-ios-paper-outline" data-inline="false"></span>
+
+                            <h2>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h2>
+                        </div>
+                                
+                    </div>
+
+                    <div class="t01">
+                        <h1>Sed ut perspiciatis</h1>
+
+                        <div class="t01sub">
+                            <span class="iconify" data-icon="ion-ios-speedometer-outline" data-inline="false"></span>
+
+                            <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</h2>
+                        </div>
+                                
+                    </div>
+
+                    <div class="t01">
+                        <h1>Nemo Enim</h1>
+
+                        <div class="t01sub">
+                            <span class="iconify"></span>
+
+                            <h2>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</h2>
+                        </div>
+                                
+                    </div>
+
+                    <div class="t01">
+                        <h1>Eiusmod Tempor</h1>
+
+                        <div class="t01sub">
+                            <span class="iconify" data-icon="mdi-light:clock" data-inline="false"></span>
+
+                            <h2>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</h2>
+                        </div>
+                                
+                    </div>
+                </div>
+            </section>
+
+<!----------------------FIN SERVICES----------------------------->
+    <!----------------------WHY US ----------------------------->
+
+
+            <section class="seccion" id="why-us">
+                    <section class="container">
+                    <header>    
+                        <h3>Why choose us?</h3>
+                        
+                        <p>
+                            Integer ornare condimentum nibh et placerat.
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae;
+                        </p>
+                    </header>
+                    
+                    <div class="cards">
+                        <div class="card-container">
+                            <div class="card">
+                                <i class="fa fa-diamond" aria-hidden="true"></i>
+                                <div class="cardbody">
+                                
+                                    <h5>Lorem Ipsum</h5>
+                                
+                                    <p>
+                                        Deleniti optio et nisi dolorem debitis.
+                                        Aliquam nobis est temporibus sunt ab
+                                        inventore officiis aut voluptatibus.
+                                    </p>
+
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+
+                            <div class="card">
+                                <i class="fa fa-language" aria-hidden="true"></i>
+                                <div class="cardbody">
+                                    
+                                <h5>Lorem Ipsum</h5>
+                                        
+                                <p>
+                                   Voluptates nihil et quis omnis et eaque
+                                    omnis sint aut. Ducimus dolorum aspernatur.
+                                </p>
+
+                                <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-container">
+                                
+                            <div class="card">
+                                <i class="fa fa-object-group" aria-hidden="true"></i>
+                                <div class="cardbody">
+                                    
+                                <h5>Lorem Ipsum</h5>
+                                    
+                                <p>
+                                    Autem quod nesciunt eos ea aut amet laboriosam ab.
+                                    Eos quis porro in non nemo ex.
+                                </p>
+                                <a href="#">Read more</a>
+                                </div> 
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h3>Newsletter</h3>
 
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza. 
-                        </p>
+                    <div class="counters flex wrap text-center">
+                        <div>
+                            <span>
+                                274
+                            </span>
+                            <p>Clients</p>
+                        </div>
+                        <div>
+                            <span>
+                            421
+                            </span>
+                            <p>Projects</p>
+                        </div>
+                        <div>
+                            <span>
+                                1,364
+                            </span>
+                            <p>Hours of Support</p>
+                        </div>
+                        <div>
+                            <span>
+                                18
+                            </span>
+                            <p>Hard workers</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+ <!---------------------- FIN WHY US ----------------------------->               
+  <!---------------------- PORTFOLIO----------------------------->                        
+         
+            <section class="seccion fondoblanco" id="portfolio">
+                    <div class="container">
+                    <header>
+                        <h3>Our Portfolio</h3>
+                    </header>
+                
+                    <div class="filtros text-center ">
+                        <ul class="flex ">
+                            <li> ALL </li>
+                            <li> APP </li>
+                            <li> CARD </li>
+                            <li> WEB </li>
+                        </ul>
+                    </div>
+
+                    <section class="portfolio-content">
+                        <div class="contenedor-item">
+                            <div class="portfolio-item">
+                                <img src="./imagenes/portfolio/app1.jpg">
+
+                                <div class="portfolio-item-hover flex columna fullcentrado">
+
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class="flex fullcentrado">
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedor-item">
+                            <div  class="portfolio-item">
+                                <img src="./imagenes/portfolio/web1.jpg">
+
+                                <div class="portfolio-item-hover flex columna fullcentrado">
+
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class="flex fullcentrado">
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedor-item">
+                            <div class="portfolio-item">
+                                <img src="./imagenes/portfolio/card1.jpg">
+                            
+                                <div class="portfolio-item-hover flex columna fullcentrado">
+
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class=" flex fullcentrado">
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>                            
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+
+                        <div class="contenedor-item">
+                            <div class="portfolio-item">
+                                <img src="./imagenes/portfolio/app2.jpg">
+
+                                <div class=" portfolio-item-hover flex columna fullcentrado">
+
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class=" flex fullcentrado">
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="contenedor-item">
+                            <div  class="portfolio-item">
+                                <img src="./imagenes/portfolio/web2.jpg">
+
+                                <div class="portfolio-item-hover flex columna fullcentrado">
+
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class=" flex fullcentrado">
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="contenedor-item">
+                            <div  class="portfolio-item">
+                                <img src="./imagenes/portfolio/card2.jpg">
+
+                                <div class="portfolio-item-hover flex columna fullcentrado">
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class="flex fullcentrado">
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor-item">
+                            <div  class="portfolio-item">
+                                <img src="./imagenes/portfolio/app3.jpg">
+
+                                <div class="portfolio-item-hover flex columna fullcentrado">
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class=" flex fullcentrado">
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="contenedor-item">
+                            <div  class="portfolio-item">
+                                <img src="./imagenes/portfolio/web3.jpg">
+
+                                <div class="portfolio-item-hover flex columna fullcentrado">
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class=" flex fullcentrado">
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="contenedor-item">
+                            <div  class="portfolio-item" >
+                                <img src="./imagenes/portfolio/card3.jpg">
+
+                                <div class="portfolio-item-hover flex columna fullcentrado">
+                                    <h4> 
+                                        App 1
+                                    </h4>
+
+                                    <p>
+                                        APP
+                                    </p>
+
+                                    <div class="flex fullcentrado">
+                                        <span class="roundbuttons  flex fullcentrado">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="roundbuttons flex fullcentrado">
+                                            <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </section>
+  <!---------------------- FIN PORTFOLIO ----------------------------->                        
+  <!---------------------- TESTIMONIALS ----------------------------->                        
+                   
+            <section class="seccion fondoceleste" id="testimonials">
+                <div class="container">
+                    <header>
+                        <h3>
+                            Testimonials
+                        </h3>
+                    </header>
+                    <section class="testimonios marginbottom">
+                        <div class="centrado-items"> 
+                            <div class="item-testimonials marginbottom">
+                                <img src="./imagenes/testimonial-1.jpg">
+                                
+                                <h3>El Bromas</h3>
+                            
+                                <h4>CEO & Founder</h4>
+
+                                <p>
+                                    Introduce a little anarchy. Upset the established order,
+                                    and everything becomes chaos. I'm an agent of chaos...
+                                </p>
+                            </div>
+                        </div>
+                            <div class="dots flex fullcentrado">
+                                <div class="dot"> </div>
+                                <div class="dot"> </div>
+                                <div class="dot"> </div>
+                                <div class="dot"> </div>
+                                <div class="dot"> </div>
+                            </div>
+                        
+                    </section>
+                </div>
+            </section>
+  <!---------------------- FIN TESTIMONIALS ----------------------------->                        
+<!-----------------------TEAM-------------------------------->
+        <section class="seccion fondoblanco" id="team">
+            <header>
+                <h1>Team</h1>
+                <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</h2>
+            </header>
+            <section class="cards">
+
+                <section class="card01">
+                    <div class="fondoazul"></div>
+                    <div class="text">
+                            <h1>Ben Affleck</h1>
+                            <h2>Chief Executive Officer</h2>
+                        <div class="tredes">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card02">
+                    <div class="fondoazul"></div>
+                    <div class="text">
+                            <h1>Christian Bale</h1>
+                            <h2>Product Manager</h2>
+                        <div class="tredes">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card03">
+                    <div class="fondoazul"></div>
+                    <div class="text">
+                            <h1>Michael Keaton</h1>
+                            <h2>CTO</h2>
+                        <div class="tredes">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card04">
+                    <div class="fondoazul"></div>
+                    <div class="text">
+                            <h1>Adam West</h1>
+                            <h2>Accountant</h2>
+                        <div class="tredes">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+
+        </section>
+                <!----------------------------OUR CKIENTS----------------------------->        
+                <section class="seccion fondoceleste" id="our-clients">
+                        <div class="container">
+                        <header>
+                            <h1>Our Clients</h1>
+                            <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</h2>
+                        </header>
+            
+                        <section class="clientes">
+                                <img src="imagenes/clients/client-1.png" alt="cliente">
+                        </section>
+            
+                        <section class="clientes">
+                                <img src="imagenes/clients/client-2.png" alt="cliente">
+                        </section>
+            
+                        <section class="clientes">
+                                <img src="imagenes/clients/client-3.png" alt="cliente">
+                        </section>
+            
+                        <section class="clientes">
+                                <img src="imagenes/clients/client-4.png" alt="cliente">
+                        </section>
+            
+                        <section class="clientes">
+                                <img src="imagenes/clients/client-5.png" alt="cliente">
+                        </section>
+            
+                        <section class="clientes">
+                                <img src="imagenes/clients/client-6.png" alt="cliente">
+                        </section>
+            
+                        <section class="clientes">
+                                <img src="imagenes/clients/client-7.png" alt="cliente">
+                        </section>
+            
+                        <section class="clientes">
+                                <img src="imagenes/clients/client-8.png" alt="cliente">
+                        </section>
+                    </div>
+                </section>
+         <!----------------------------FIN OUR CLIENTS----------------------------->        
+       <!----------------------------CONTACT US----------------------------->        
+
+            
+        
+            <section class="seccion fondoblanco" id="contact-us">
+                <div class="container">
+                    <header>
+                        Contact Us
+                    </header>
+
+                        <div class="mapa">
+                            <iframe  src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=A108%20Adam%20Street%2C%20NY%20535022+()&ie=UTF8&t=&z=13&iwloc=B&output=embed"  scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+
+                    <section class="datos">
+
+                        <div>
+                            <span class="iconify" data-icon="ion:location-outline" data-inline="false"></span>
+                            <h1>A108 Adam Street, NY 535022</h1>
+                        </div>
+
+                        <div>
+                            <span class="iconify" data-icon="ion:mail-outline" data-inline="false"></span>
+                            <h1>info@example.com</h1>
+                        </div>
+
+                        <div>
+                            <span class="iconify" data-icon="ion:call-outline" data-inline="false"></span>
+                            <h1>+1 5589 55488 55</h1>
+                        </div>
 
                         <form>
-                            <input type="email" name="email">
-                            <button type="submit">SUBMIT</button>
+                            <input type="text" name="firstname" placeholder="Nombre">
+                            <input type="email" name="firstname" placeholder="Tu Email">
+                            <input type="text" name="firstname" placeholder="Sujeto">
+                            <textarea rows="7" cols="40">Mensaje</textarea>
+
+                            <button>Enviar Mensaje</button>
+
+
                         </form>
+
+                    </section>
+                </div>
+            </section>
+
+          <!----------------------------FIN CONTACT US----------------------------->        
+
+            <!----------------------------FOOTER----------------------------->        
+
+            <footer class="footer">
+                
+                <div class="footertop  marginbottom"> 
+                    <div class="container">
+                        <div class="container2"> 
+                            <div class="waynefamily">
+                                <h3>WAYNE</h3>
+                                <p>Fundada por los antepasados ​​mercantes de la familia Wayne en el siglo XVII como una casa de comerciantes,
+                                        se encuentra entre las compañías más antiguas del Universo DC. </p>
+                            </div>
+
+                            <div class="usefullinks marginbottom">
+                                <h4>Useful Links</h4>
+
+                                <ul>                          
+                                    <li><a>Home</a></li>
+                                    <li><a>About us</a></li>
+                                    <li><a>Services</a></li>
+                                    <li><a>Terms of service</a></li>
+                                    <li><a>Privacy policy</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="contacto marginbottom">
+                                <h4>Contact Us</h4>
+
+                                <p>A108 Adam Street <br>
+                                New York, NY 535022 <br>
+                                United States <br>
+                                <strong>Phone:</strong> +1 5589 55488 55 <br>
+                                <strong>Email:</strong> info@example.com</p>
+
+                                <div class="socialbuttons flex">
+                                        <a href="#" class="twitter roundbuttons social flex fullcentrado"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" class="facebook roundbuttons social flex fullcentrado"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="instagram roundbuttons social flex fullcentrado"><i class="fa fa-instagram"></i></a>
+                                        <a href="#" class="google-plus roundbuttons social flex fullcentrado"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#" class="linkedin roundbuttons social flex fullcentrado"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="newsletter marginbottom">
+                                <h4>our Newsletter</h4>
+
+                                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza. 
+                                </p>
+
+                                <form class="flex">
+                                    <input type="email" name="email">
+                                    <button type="submit" class="button">Subscribe</button>
+                                </form>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container">
+                    <div class="footerbot text-center ">
+                        <span>© Copyright <strong>Wayne Enterprises.</strong>
+                            <br> All Rights Reserved.</span> 
+                           <br> <span> Designed by ...</span> 
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="footerbot">
-                       <span>© Copyright Wayne Enterprises. All Rights Reserved</span> 
-                        <span> Designed by ...</span> 
-                </div>
-            </div>
-        </footer>
+            </footer>
 
-
+        </section>
 
     </body>
 </html>

@@ -1,0 +1,88 @@
+#contact-us{
+    background: white;
+    width:100%;
+    height: auto;
+    header{
+        color: $colortitulo;
+        font-size:36px ;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom:50px;
+        letter-spacing: 1px;
+    }
+    .mapa{
+        display:flex;
+        align-items: center;
+        padding-bottom:30px ;
+        iframe{
+            margin:auto;
+            width:90vw;
+            height: 330px;
+        }
+    }
+    .datos{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        div{
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 15px;
+            padding-left:10px;
+            h1{
+                color: $colortitulo;
+                font-weight: 400;
+                font-size: 14px;
+            }
+            .iconify{
+                padding-right: 10px;
+                display:flex;
+                align-self: center;
+                color: $acentos; 
+                font-size: 30px;
+            }
+        }
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+        input{
+            padding:5px;
+            font-family: $fuentetitulos;
+            font-size: 14px;
+            width:90vw;
+            height: 25px;
+            color: grey;
+            margin:10px;
+        }
+        textarea{
+            padding:5px;
+            font-family: $fuentetitulos;
+            font-size: 14px;
+            width:90vw;
+            color:grey;
+            margin-top: 10px;
+            margin-bottom:15px ;
+        }
+        button{
+            font-family: $fuentetitulos;
+            font-size: 15px;
+            width: 166.88px; 
+            height: 40px; 
+            color:white;
+            background: $acentos;
+            border-radius: 45px;
+            border: solid 1px $acentos;
+            margin-bottom: 50px;
+            transition: 0.3s ease-out;
+            &:hover{
+                background:$fondo;
+                cursor: pointer;
+            }
+
+        }
+    }
+    
+}

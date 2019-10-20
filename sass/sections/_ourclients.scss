@@ -1,13 +1,13 @@
 #our-clients{
     background: $fondo_claro;
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin:0;
     padding-top: 50px;
     padding-bottom: 50px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     header{
@@ -24,7 +24,7 @@
             margin:0px 0px 15px 0px;
         }
         h2{
-            color:$colorgeneral;
+            color: $colorgeneral;
             font-weight: 400;
             font-family: $fuentegeneral;
             font-size: 15px;
