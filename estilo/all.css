@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* -------------------------------------------------------- */
+/*---botones, links----*/
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #00428a;
@@ -1038,6 +1038,92 @@ body h4 {
     padding: 15px 0;
   }
 }
+#contact-us {
+  background: white;
+  width: 100%;
+  height: auto;
+}
+#contact-us header {
+  color: #283d50;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: 1px;
+}
+#contact-us .mapa {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+#contact-us .mapa iframe {
+  margin: auto;
+  width: 90vw;
+  height: 330px;
+}
+#contact-us .datos {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#contact-us .datos div {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+#contact-us .datos div h1 {
+  color: #283d50;
+  font-weight: 400;
+  font-size: 14px;
+}
+#contact-us .datos div .iconify {
+  padding-right: 10px;
+  display: flex;
+  align-self: center;
+  color: #007bff;
+  font-size: 30px;
+}
+#contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact-us form input {
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  width: 90vw;
+  height: 25px;
+  color: grey;
+  margin: 10px;
+}
+#contact-us form textarea {
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  width: 90vw;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#contact-us form button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  width: 166.88px;
+  height: 40px;
+  color: white;
+  background: #007bff;
+  border-radius: 45px;
+  border: solid 1px #007bff;
+  margin-bottom: 50px;
+  transition: 0.3s ease-out;
+}
+#contact-us form button:hover {
+  background: #004a99;
+  cursor: pointer;
+}
+
 .footer .footertop {
   padding-top: 30px;
   padding-bottom: 30px;
