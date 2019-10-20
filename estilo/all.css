@@ -1131,18 +1131,16 @@ body h4 {
   margin: 0;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+#our-clients header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-#our-clients header {
   width: 90vw;
   padding-bottom: 50px;
 }
 #our-clients header h1 {
   color: #283d50;
-  text-align: center;
   letter-spacing: 1px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
@@ -1154,10 +1152,9 @@ body h4 {
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  text-align: center;
   margin: 0;
 }
-#our-clients .clientes {
+#our-clients .cliente {
   background: white;
   width: 90vw;
   height: 15vh;
@@ -1165,19 +1162,34 @@ body h4 {
   justify-content: center;
   border: 1px solid #d6eaff;
 }
-#our-clients .clientes:hover img {
+#our-clients .cliente:hover img {
   transform: scale(1.2);
 }
-#our-clients .clientes img {
+#our-clients .cliente img {
   width: 50vw;
   align-self: center;
   transition: 0.3s ease-in;
 }
 
+@media (min-width: 992px) {
+  #our-clients .clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #our-clients .clientes .cliente {
+    width: 20vw;
+    height: 20vh;
+  }
+  #our-clients .clientes .cliente img {
+    width: 15vw;
+  }
+}
 #contact-us {
   background: white;
   width: 100%;
   height: auto;
+  display: flex;
 }
 #contact-us header {
   color: #283d50;
@@ -1197,23 +1209,22 @@ body h4 {
   width: 90vw;
   height: 330px;
 }
-#contact-us .datos {
+#contact-us .datosyform {
   padding-left: 10px;
   display: flex;
   flex-direction: column;
 }
-#contact-us .datos div {
+#contact-us .datosyform .datos div {
   display: flex;
-  flex-direction: row;
   padding-bottom: 15px;
   padding-left: 10px;
 }
-#contact-us .datos div h1 {
+#contact-us .datosyform .datos div h1 {
   color: #283d50;
   font-weight: 400;
   font-size: 14px;
 }
-#contact-us .datos div .iconify {
+#contact-us .datosyform .datos div .iconify {
   padding-right: 10px;
   display: flex;
   align-self: center;
@@ -1261,17 +1272,17 @@ body h4 {
 }
 
 @media (min-width: 992px) {
-  #contactus .mapa {
-    display: flex;
-    align-items: left;
+  #contact-us .mapa {
+    width: 60%;
   }
-  #contactus .mapa iframe {
-    margin: auto;
-    width: 57vw;
-    height: 220px;
+  #contact-us .mapa iframe {
+    width: 100%;
+    margin-left: 50px;
   }
-  #contactus .datos {
+  #contact-us .datosyform {
     display: flex;
+  }
+  #contact-us .datosyform .datos {
     flex-direction: row;
   }
 }

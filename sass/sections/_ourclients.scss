@@ -6,17 +6,18 @@
     padding-top: 50px;
     padding-bottom: 50px;
 
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
+
+    
+
     header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
         width: 90vw;
         padding-bottom: 50px;
         
         h1{
             color: $colortitulo;
-            text-align: center;
             letter-spacing: 1px; 
             font-weight: 600;
             font-family: $fuentetitulos;
@@ -28,11 +29,10 @@
             font-weight: 400;
             font-family: $fuentegeneral;
             font-size: 15px;
-            text-align: center;
             margin: 0; 
         }
     }
-    .clientes{
+    .cliente{
         background: white;
         width: 90vw;
         height: 15vh;
@@ -47,6 +47,33 @@
             align-self: center;
             transition: 0.3s ease-in;
         }
+    }  
+    
+}
 
-    }    
+@include desktop {
+    #our-clients{
+        
+        .clientes{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            
+            .cliente{
+                width: 20vw;
+                height: 20vh;
+                img{
+                    width:15vw;
+                    
+                }
+            }
+        
+        }
+
+    }
+
+    
+
+
 }
