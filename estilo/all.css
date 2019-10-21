@@ -817,225 +817,24 @@ body h4 {
   color: #556877;
   line-height: 1.6;
 }
-#team .card01 {
+#team .card .persona img {
+  width: 73%;
   border-radius: 50%;
-  width: 330px;
-  height: 330px;
-  background: url("../imagenes/team-01.jpg");
-  margin: auto;
-  transition: 0.5s ease-in;
   position: relative;
 }
-#team .card01:hover .text {
-  transform: translateY(-15px);
-  opacity: 1;
+#team .card .persona .nombre h1 {
+  font-size: 18px;
 }
-#team .card01 .fondoazul {
-  background: #004a99;
+#team .card .persona .nombre h2 {
+  font-size: 15px;
+}
+#team .card .persona .hoverazul {
+  background: blue;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  width: 330px;
-  height: 330px;
-  margin: auto;
-  transition: 0.2s ease-in;
-  opacity: 0;
-}
-#team .card01 .fondoazul:hover {
-  opacity: 0.6;
-}
-#team .card01 .text {
-  color: white;
-  position: absolute;
-  top: 130px;
-  left: 115px;
-  opacity: 0;
-  transition: 0.2s ease-in;
-  text-align: center;
-}
-#team .card01 .text h1 {
-  font-size: 110%;
-  margin: auto;
-}
-#team .card01 .text h2 {
-  font-weight: 400;
-  font-size: 70%;
-}
-#team .card01 .text .tredes {
-  padding-top: 5px;
-  text-align: center;
-}
-#team .card01 .text .tredes i:hover {
-  color: #007bff;
-  cursor: pointer;
-  opacity: 1;
-}
-#team .card02 {
-  border-radius: 50%;
-  width: 330px;
-  height: 330px;
-  background: url("../imagenes/team-02.jpg");
-  margin: 15px auto 0px auto;
-  transition: 0.5s ease-in;
-  position: relative;
-}
-#team .card02:hover .text {
-  transform: translateY(-15px);
-  opacity: 1;
-}
-#team .card02 .fondoazul {
-  background: #004a99;
-  border-radius: 50%;
-  width: 330px;
-  height: 330px;
-  margin: auto;
-  transition: 0.2s ease-in;
-  opacity: 0;
-}
-#team .card02 .fondoazul:hover {
-  opacity: 0.6;
-}
-#team .card02 .text {
-  color: white;
-  position: absolute;
-  top: 130px;
-  left: 115px;
-  opacity: 0;
-  transition: 0.2s ease-in;
-  text-align: center;
-}
-#team .card02 .text h1 {
-  font-size: 110%;
-  margin: auto;
-}
-#team .card02 .text h2 {
-  font-weight: 400;
-  font-size: 70%;
-}
-#team .card02 .text .tredes {
-  padding-top: 5px;
-  text-align: center;
-}
-#team .card02 .text .tredes i:hover {
-  color: #007bff;
-  cursor: pointer;
-  opacity: 1;
-}
-#team .card03 {
-  border-radius: 50%;
-  width: 330px;
-  height: 330px;
-  background: url("../imagenes/team-03.jpg");
-  margin: 15px auto 0px auto;
-  transition: 0.5s ease-in;
-  position: relative;
-}
-#team .card03:hover .text {
-  transform: translateY(-15px);
-  opacity: 1;
-}
-#team .card03 .fondoazul {
-  background: #004a99;
-  border-radius: 50%;
-  width: 330px;
-  height: 330px;
-  margin: auto;
-  transition: 0.2s ease-in;
-  opacity: 0;
-}
-#team .card03 .fondoazul:hover {
-  opacity: 0.6;
-}
-#team .card03 .text {
-  color: white;
-  position: absolute;
-  top: 130px;
-  left: 115px;
-  opacity: 0;
-  transition: 0.2s ease-in;
-  text-align: center;
-}
-#team .card03 .text h1 {
-  font-size: 110%;
-  margin: auto;
-}
-#team .card03 .text h2 {
-  font-weight: 400;
-  font-size: 70%;
-}
-#team .card03 .text .tredes {
-  padding-top: 5px;
-  text-align: center;
-}
-#team .card03 .text .tredes i:hover {
-  color: #007bff;
-  cursor: pointer;
-  opacity: 1;
-}
-#team .card04 {
-  border-radius: 50%;
-  width: 330px;
-  height: 330px;
-  background: url("../imagenes/team-04.jpg");
-  margin: 15px auto 0px auto;
-  transition: 0.5s ease-in;
-  position: relative;
-}
-#team .card04:hover .text {
-  transform: translateY(-15px);
-  opacity: 1;
-}
-#team .card04 .fondoazul {
-  background: #004a99;
-  border-radius: 50%;
-  width: 330px;
-  height: 330px;
-  margin: auto;
-  transition: 0.2s ease-in;
-  opacity: 0;
-}
-#team .card04 .fondoazul:hover {
-  opacity: 0.6;
-}
-#team .card04 .text {
-  color: white;
-  position: absolute;
-  top: 130px;
-  left: 115px;
-  opacity: 0;
-  transition: 0.2s ease-in;
-  text-align: center;
-}
-#team .card04 .text h1 {
-  font-size: 110%;
-  margin: auto;
-}
-#team .card04 .text h2 {
-  font-weight: 400;
-  font-size: 70%;
-}
-#team .card04 .text .tredes {
-  padding-top: 5px;
-  text-align: center;
-}
-#team .card04 .text .tredes i:hover {
-  color: #007bff;
-  cursor: pointer;
-  opacity: 1;
 }
 
-@media (min-width: 992px) {
-  #team .cards {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    transform: scale(0.6);
-    justify-content: space-around;
-  }
-  #team .cards .text {
-    font-size: 30px;
-    left: 59px;
-    top: 101px;
-  }
-}
 #why-us {
   background-color: #004a99;
 }
