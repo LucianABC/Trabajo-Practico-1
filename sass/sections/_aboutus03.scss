@@ -28,7 +28,8 @@
 
 
 .itemaboutus {
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
         
     .icon {
 
@@ -64,6 +65,15 @@
     
     h4 {
         font-size: 18px;
+    }
+}
+
+
+#about-us-sec2, #about-us-sec3 {
+    margin-top: 30px;
+
+    .imgcontainer {
+        margin-bottom: 30px;
     }
 }
 @include desktop {

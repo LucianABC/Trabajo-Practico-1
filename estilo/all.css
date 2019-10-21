@@ -503,7 +503,8 @@ body h4 {
 }
 
 .itemaboutus {
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .itemaboutus .icon {
   background: transparent;
@@ -530,6 +531,13 @@ body h4 {
 
 #about-us-sec1 h4 {
   font-size: 18px;
+}
+
+#about-us-sec2, #about-us-sec3 {
+  margin-top: 30px;
+}
+#about-us-sec2 .imgcontainer, #about-us-sec3 .imgcontainer {
+  margin-bottom: 30px;
 }
 
 @media (min-width: 992px) {
