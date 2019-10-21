@@ -817,24 +817,84 @@ body h4 {
   color: #556877;
   line-height: 1.6;
 }
-#team .card .persona img {
-  width: 73%;
+#team .card {
   border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  margin: auto;
+  margin-bottom: 20px;
+  transition: 0.5s ease-in;
   position: relative;
 }
-#team .card .persona .nombre h1 {
-  font-size: 18px;
+#team .card:hover .text {
+  transform: translateY(-15px);
+  opacity: 1;
 }
-#team .card .persona .nombre h2 {
-  font-size: 15px;
-}
-#team .card .persona .hoverazul {
-  background: blue;
-  width: 100px;
-  height: 100px;
+#team .card .fondoazul {
+  background: #004a99;
   border-radius: 50%;
+  width: 330px;
+  height: 330px;
+  margin: auto;
+  transition: 0.2s ease-in;
+  opacity: 0;
+}
+#team .card .fondoazul:hover {
+  opacity: 0.6;
+}
+#team .card .text {
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 115px;
+  opacity: 0;
+  transition: 0.2s ease-in;
+  text-align: center;
+}
+#team .card .text h1 {
+  font-size: 110%;
+  margin: auto;
+}
+#team .card .text h2 {
+  font-weight: 400;
+  font-size: 70%;
+}
+#team .card .text .tredes {
+  padding-top: 5px;
+  text-align: center;
+}
+#team .card .text .tredes i:hover {
+  color: #007bff;
+  cursor: pointer;
+  opacity: 1;
+}
+#team .uno {
+  background: url("../imagenes/team-01.jpg");
+}
+#team .dos {
+  background: url("../imagenes/team-02.jpg");
+}
+#team .tres {
+  background: url("../imagenes/team-03.jpg");
+}
+#team .cuatro {
+  background: url("../imagenes/team-04.jpg");
 }
 
+@media (min-width: 992px) {
+  #team .cards {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    transform: scale(0.6);
+    justify-content: space-around;
+  }
+  #team .cards .text {
+    font-size: 30px;
+    left: 59px;
+    top: 101px;
+  }
+}
 #why-us {
   background-color: #004a99;
 }
