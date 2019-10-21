@@ -62,7 +62,9 @@
     }
     .counters {
         justify-content: space-around;
+        font-family: $fuentetitulos; 
         div{
+            box-sizing: border-box;
             position: relative;
             max-width: 50%;
             padding-right: 15px;

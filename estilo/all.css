@@ -751,6 +751,7 @@ body h4 {
 #testimonials .testimonios .item-testimonials p {
   font-style: italic;
   margin-bottom: 15px;
+  color: #444444;
 }
 #testimonials .testimonios .dots {
   margin: 40px;
@@ -952,8 +953,10 @@ body h4 {
 }
 #why-us .counters {
   justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
 }
 #why-us .counters div {
+  box-sizing: border-box;
   position: relative;
   max-width: 50%;
   padding-right: 15px;
