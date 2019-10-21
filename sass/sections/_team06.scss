@@ -2,9 +2,6 @@
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1140px;
     box-sizing: border-box;
     background: white;
     
@@ -28,7 +25,7 @@
             line-height: 1.6;
 
         }
-    }
+    } 
 
     .card{
         border-radius: 50%;
@@ -119,11 +116,11 @@
     #team{
         
         .cards{
-            width: auto;
+            width: 255px;
             display:flex;
             flex-direction: row;
             transform: scale(0.6);
-            justify-content: space-around;
+            align-content: center;
             .text{
                 font-size: 30px;
                 left:59px;
