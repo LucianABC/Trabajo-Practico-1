@@ -120,22 +120,25 @@
             }
 
             form{
-                box-sizing: border-box;
                 width: 100%;
-                align-items: flex-start;
                 flex-wrap: wrap;
+                flex-direction: row;
+                align-content:center;
                 .nombre, .email {
-                    box-sizing: border-box;
-                    width: 50%;
+                    width: 44%;
                 }
                 input {
-                    box-sizing: border-box;
-                    width: 100%;
+                    
+                    width: 95%;
                 }
 
                 .comment {
-                    box-sizing: border-box;
-                    width: 100%;
+                    margin:10px;
+                    
+                    width: 95%;
+                }
+                button{
+                    align-self:center;
                 }
             }
         }

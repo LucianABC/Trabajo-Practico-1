@@ -829,6 +829,7 @@ body h4 {
   margin-bottom: 20px;
   transition: 0.5s ease-in;
   position: relative;
+  transform: scale(0.9);
 }
 #team .card:hover .text {
   transform: translateY(-15px);
@@ -850,22 +851,25 @@ body h4 {
   color: white;
   position: absolute;
   top: 130px;
-  left: 115px;
+  left: 90px;
   opacity: 0;
   transition: 0.2s ease-in;
   text-align: center;
 }
 #team .card .text h1 {
-  font-size: 110%;
+  font-size: 130%;
   margin: auto;
 }
 #team .card .text h2 {
   font-weight: 400;
-  font-size: 70%;
+  font-size: 100%;
 }
 #team .card .text .tredes {
   padding-top: 5px;
   text-align: center;
+}
+#team .card .text .tredes i {
+  font-size: 100%;
 }
 #team .card .text .tredes i:hover {
   color: #007bff;
@@ -893,8 +897,8 @@ body h4 {
     align-content: center;
   }
   #team .cards .text {
-    font-size: 30px;
-    left: 59px;
+    font-size: 15px;
+    left: 54px;
     top: 101px;
   }
   #team .cards .card {
@@ -1168,22 +1172,23 @@ body h4 {
     flex-direction: row;
   }
   #contact-us .contenedorContactus form {
-    box-sizing: border-box;
     width: 100%;
-    align-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
   }
   #contact-us .contenedorContactus form .nombre, #contact-us .contenedorContactus form .email {
-    box-sizing: border-box;
-    width: 50%;
+    width: 44%;
   }
   #contact-us .contenedorContactus form input {
-    box-sizing: border-box;
-    width: 100%;
+    width: 95%;
   }
   #contact-us .contenedorContactus form .comment {
-    box-sizing: border-box;
-    width: 100%;
+    margin: 10px;
+    width: 95%;
+  }
+  #contact-us .contenedorContactus form button {
+    align-self: center;
   }
 }
 .footer .footertop {
