@@ -880,16 +880,23 @@ body h4 {
 
 @media (min-width: 992px) {
   #team .cards {
-    width: 255px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    transform: scale(0.6);
     align-content: center;
   }
   #team .cards .text {
     font-size: 30px;
     left: 59px;
     top: 101px;
+  }
+  #team .cards .card {
+    width: 255px;
+    height: 255px;
+  }
+  #team .cards .card .fondoazul {
+    width: 255px;
+    height: 255px;
   }
 }
 #why-us {

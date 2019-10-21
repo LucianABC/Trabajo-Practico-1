@@ -116,15 +116,25 @@
     #team{
         
         .cards{
-            width: 255px;
+            width: 100%;
             display:flex;
             flex-direction: row;
-            transform: scale(0.6);
             align-content: center;
             .text{
                 font-size: 30px;
                 left:59px;
                 top:101px;
+            }
+
+            .card {
+                width:255px;
+                height: 255px;
+
+                .fondoazul {
+                    
+                width:255px;
+                height: 255px;
+                }
             }
 
             
