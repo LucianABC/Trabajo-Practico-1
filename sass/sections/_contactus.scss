@@ -1,8 +1,7 @@
 #contact-us{
     background: white;
     width:100%;
-    height: auto;
-    display:flex;
+    height: auto; 
     header{
         color: $colortitulo;
         font-size:36px ;
@@ -20,7 +19,7 @@
             width:90vw;
             height: 330px;
         }
-    }
+    } 
     .datosyform{
         padding-left: 10px;
         display: flex;
@@ -92,22 +91,52 @@
 
 @include desktop {
     #contact-us{
-        .mapa{
-            width:60%;
-            iframe{
-                width:100%;
-                margin-left: 50px;
-            }
-        }
-        .datosyform{
-            display:flex;
-            .datos{
-                flex-direction: row;
-                div{
-                   
-
+        .contenedorContactus {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            .mapa{
+                width:50%;
+                iframe{
+                    width:100%;
+                    margin: 0;
                 }
-                
+            }
+            .datosyform{
+                box-sizing: border-box;
+                display:flex;
+                width: 50%;
+                .datos{
+                    display: flex;
+                    flex-direction: row;
+                    div{
+                    
+
+                    }
+                    
+                }
+            }
+
+            form{
+                box-sizing: border-box;
+                width: 100%;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                .nombre, .email {
+                    box-sizing: border-box;
+                    width: 50%;
+                }
+                input {
+                    box-sizing: border-box;
+                    width: 100%;
+                }
+
+                .comment {
+                    box-sizing: border-box;
+                    width: 100%;
+                }
             }
         }
 

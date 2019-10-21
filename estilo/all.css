@@ -1052,7 +1052,6 @@ body h4 {
   background: white;
   width: 100%;
   height: auto;
-  display: flex;
 }
 #contact-us header {
   color: #283d50;
@@ -1135,18 +1134,46 @@ body h4 {
 }
 
 @media (min-width: 992px) {
-  #contact-us .mapa {
-    width: 60%;
-  }
-  #contact-us .mapa iframe {
+  #contact-us .contenedorContactus {
+    box-sizing: border-box;
     width: 100%;
-    margin-left: 50px;
-  }
-  #contact-us .datosyform {
+    padding: 15px;
     display: flex;
+    justify-content: center;
   }
-  #contact-us .datosyform .datos {
+  #contact-us .contenedorContactus .mapa {
+    width: 50%;
+  }
+  #contact-us .contenedorContactus .mapa iframe {
+    width: 100%;
+    margin: 0;
+  }
+  #contact-us .contenedorContactus .datosyform {
+    box-sizing: border-box;
+    display: flex;
+    width: 50%;
+  }
+  #contact-us .contenedorContactus .datosyform .datos {
+    display: flex;
     flex-direction: row;
+  }
+  #contact-us .contenedorContactus form {
+    box-sizing: border-box;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  #contact-us .contenedorContactus form .nombre, #contact-us .contenedorContactus form .email {
+    box-sizing: border-box;
+    width: 50%;
+  }
+  #contact-us .contenedorContactus form input {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #contact-us .contenedorContactus form .comment {
+    box-sizing: border-box;
+    width: 100%;
   }
 }
 .footer .footertop {
