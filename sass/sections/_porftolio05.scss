@@ -29,12 +29,18 @@
 
 
     .portfolio-content {
+
+        .contenedor-item {
+            transition: 0.3s ease-in-out;
+
+        }
         .portfolio-item{
             position: relative;
             border-radius: 7px;
             overflow: hidden;
             margin-bottom: 30px;
             height: 250px;
+
 
             img {
                 width: 100%;
@@ -52,6 +58,7 @@
                 height: 100%;
                 color: white;
                 background-color: $fondo_overlay;
+                
                
                 h4 {
                     color: white;
@@ -62,7 +69,12 @@
             &:hover > .portfolio-item-hover {
                 display: flex;
             }
-
+            .roundbuttons {
+                &:hover {
+                    background-color: #3395ff;
+                }
+                
+            }
         }
     }
 }

@@ -678,6 +678,9 @@ body h4 {
   background-color: #007bff;
   color: white;
 }
+#portfolio .portfolio-content .contenedor-item {
+  transition: 0.3s ease-in-out;
+}
 #portfolio .portfolio-content .portfolio-item {
   position: relative;
   border-radius: 7px;
@@ -706,6 +709,9 @@ body h4 {
 }
 #portfolio .portfolio-content .portfolio-item:hover > .portfolio-item-hover {
   display: flex;
+}
+#portfolio .portfolio-content .portfolio-item .roundbuttons:hover {
+  background-color: #3395ff;
 }
 
 @media (min-width: 992px) {
@@ -921,6 +927,7 @@ body h4 {
   border-radius: 15px;
   margin: 0;
   padding: 15px;
+  transition: 0.3s ease-in-out;
 }
 #why-us .card-container .card:hover {
   background-color: #003b7a;
@@ -1222,6 +1229,9 @@ body h4 {
 .footer .contacto .socialbuttons .social {
   font-size: 18px;
   padding: 0;
+}
+.footer .contacto .socialbuttons .social:hover {
+  background-color: #0067d5;
 }
 .footer form {
   flex-wrap: nowrap;

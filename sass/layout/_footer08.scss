@@ -59,7 +59,12 @@
             .social {
                 font-size:18px;
                 padding:  0;
+                
+            &:hover { 
+                background-color: #0067d5;
+            }     
             }
+   
         }
     }
     form {
