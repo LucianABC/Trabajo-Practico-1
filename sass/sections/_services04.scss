@@ -8,6 +8,12 @@
         text-align: center;
         padding: 50px 5px 50px 5px;
         display: inline-block;
+        /* Esto genera problemas con el tamaño de la
+            pantalla en desktop. Se va de los margenes de 
+            la seccion y se escrolea para la derecha.
+            Revisar y usar porcentajes. Los vw son unidades
+            sobre el ancho de la pantalla, mientras
+            que el porcentaje es del ancho del padre*/ 
         width: 87vw;
 
         h1{

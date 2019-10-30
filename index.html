@@ -16,13 +16,14 @@
 
     </head>
     <body>
-           
+        <!-- todo esto pertenece al header -->
         <input type="checkbox"  id="openmenu">
+        <!--Podría hacerlo con flex-->
         <label for="openmenu" class="togglemenu right">
             <i class="fa fa-bars"></i>
        </label>
         
-       
+       <!-- Todo esto pertenece al header -->
         <label for="openmenu" class="closemenuIcon">
             <i class="fa fa-times"></i>
         </label>
@@ -30,6 +31,7 @@
 
         <header id="nav" class="fondoblanco flex ">
             <div class="container fondoblanco">
+                <!-- Podria hacerlo sin float-->
                 <div class="logo left">
                     <a href="#home">
                         <img src="./imagenes/logo-tp.png" class="img" alt="Logo ADA">
@@ -37,7 +39,7 @@
                 </div>
 
 
- 
+                <!-- si estoy usando flex, para qué necesito float?-->
                 <nav class="navmenu-desktop right fullcentrado">
                     <ul>
                         <li>
@@ -117,7 +119,8 @@
             </div>
         </header>
 <!----------------------NAV MENU MOBILE----------------------------->
-
+<!-- Este div y este nav también pertenecen al header, porque se acceden
+desde esa sección -->
 <div class="navmenu-mobile-overlay"></div>
 <nav class="navmenu-mobile">
     <ul>
@@ -244,7 +247,7 @@
                             </p>
 
                             <div class="itemaboutus">
-                                
+                                <!--Si estoy usando flex, para qué uso float?-->
                                 <div class="icon left flex fullcentrado">
                                     <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                                 </div>
@@ -258,7 +261,7 @@
                             </div>
 
                             <div class="itemaboutus">
-
+                                <!--Si estoy usando flex, para qué uso float?-->
                                 <div class="icon left flex fullcentrado">
                                     <i class="fa fa-file-image-o" aria-hidden="true"></i>
                                 </div>
@@ -833,7 +836,12 @@
             </section>
   <!---------------------- FIN TESTIMONIALS ----------------------------->                        
 <!-----------------------TEAM-------------------------------->
-        <section class="seccion fondoblanco" id="team">
+<!-- Revisar el padding de cada elemento de esta seccion
+     Se ven muy pegados en desktop y se salen de los margenes en mobile. Esto ultimo
+    se soluciona con un max-width:100% a la imagen, y lo mismo + max-height:100% al
+div fondoazul. Esto va a hacer que necesiten reacomodar el texto que va dentro de este
+circulo -->
+<section class="seccion fondoblanco" id="team">
             <div class="container">
                 <header>
                     <h1>Team</h1>
@@ -929,6 +937,7 @@
                             </section>
                 
                             <section class="cliente">
+                                <!-- Revisar tamaño de esta imagen, se sale de los margenes cuando hago hover -->
                                     <img src="imagenes/clients/client-4.png" alt="cliente">
                             </section>
                 
@@ -1010,6 +1019,8 @@
             <footer class="footer">
                 
                 <div class="footertop  marginbottom"> 
+                    <!-- Es necesario hacer dos containers? Revisen por acá si se puede 
+                        sacar uno de estos divs -->
                     <div class="container">
                         <div class="container2"> 
                             <div class="waynefamily">
